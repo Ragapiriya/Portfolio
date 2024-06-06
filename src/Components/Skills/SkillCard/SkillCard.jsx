@@ -1,5 +1,5 @@
 import React from 'react'
-
+import './SkillCard.css'
 const SkillCard = ({title, iconUrl,isActive, onClick}) => {
 
   return (
@@ -10,11 +10,11 @@ const SkillCard = ({title, iconUrl,isActive, onClick}) => {
             <img src={iconUrl} alt={title} />
         </div>
         <span>{title}</span>
-
+          
 
     </div>
 
  )
 }
 
-export default SkillCard
+export default SkillCard;
