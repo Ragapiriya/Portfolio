@@ -49,31 +49,36 @@ export const projects=[
     {
         title:"Project1",
         year:"2024 June",
-        description:"Done and Dusted "
+        description:["Done and Dusted","Done and Dusted","Done and Dusted","Done and Dusted","Done and Dusted"]
     },
     {
         title:"Project2",
         year:"2024 June",
-        description:"Done and Dusted"
+        description:["Done and Dusted","Done and Dusted","Done and Dusted","Done and Dusted","Done and Dusted"]
+
     },
     {
         title:"Project3",
         year:"2024 May",
-        description:"Done and Dusted"
+        description:["Done and Dusted","Done and Dusted","Done and Dusted","Done and Dusted","Done and Dusted"]
+
     },
     {
         title:"Project4",
         year:"2024 May",
-        description:"Done and Dusted"
+        description:["Done and Dusted","Done and Dusted","Done and Dusted","Done and Dusted","Done and Dusted"]
+
     },
     {
         title:"Project5",
         year:"2023 December",
-        description:"Done and Dusted"
+        description:["Done and Dusted","Done and Dusted","Done and Dusted","Done and Dusted","Done and Dusted"]
+
     },
     {
         title:"Project6",
         year:"2023 December",
-        description:"Done and Dusted"
+        description:["Done and Dusted","Done and Dusted","Done and Dusted","Done and Dusted","Done and Dusted"]
+
     }
 ];
