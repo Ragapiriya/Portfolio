@@ -25,7 +25,7 @@ const Navbar = () => {
                 </li><li>
                     <a className='menu-item'>Contact me</a>
                 </li>
-                <button className='contact-btn' onClick={()=>{}}>Hire me</button>
+                <button className='contact-btn' onClick={( )=>{}}>FindMyResume</button>
 
             </ul>
             <button className='menu-btn' onClick={toggleMenu}>

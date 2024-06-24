@@ -53,5 +53,11 @@
 }
 
 .contact-btn{
-   
+   width: 100%;
+}
+@media (max-width:376px){
+    .contact-btn{
+        width: 100%;
+       
+    }
 }
