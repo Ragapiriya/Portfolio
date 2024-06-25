@@ -1,7 +1,15 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './Hero.css';
 
 const Hero = () => {
+  const [hovered,setHovered]=useState(false);
+  
+  const handleMouseEnter = ()=>{
+    setHovered(true);
+  }
+  const handleMouseLeave = ()=>{
+    setHovered(false);
+  }
   return (
     <>
     <section className='hero-container'>
@@ -17,8 +25,11 @@ The sun dipped below the horizon, casting a warm orange glow across the tranquil
                 <img src='./Assets/images/reactNew.png'/>
                  
                 </div>
-                <img src='./Assets/images/myPhoto2.jpg'/>
-
+                <div className="portfolio-item">
+                  <img  onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}  src='./Assets/images/myPhoto2.jpg'/>
+                  {hovered && <div className='hover-message'>Hello, It's me RAGAPIRIYA <br></br>( • ᴗ - ) ✧<br></br> Welcome to My Portfolio </div>}
+                </div>
+ 
           </div>
           <div>
 

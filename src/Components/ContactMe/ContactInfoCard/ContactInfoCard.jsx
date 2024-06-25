@@ -1,13 +1,13 @@
 import React from 'react'
 import './ContactInfoCard.css';
-const ContactInfoCard = ({iconUrl,text}) => {
+const ContactInfoCard = ({iconUrl,text,href}) => {
   return (
     <div className='contact-details-card'>
         <div className="icon">
             <img src={iconUrl} alt="{text}" />
         </div>
-
-        <p>{text}</p>
+        { {href} ? <a href={href} target='_blank'>{text}</a> :<p>{text}</p> }
+        
     </div>
   )
 }

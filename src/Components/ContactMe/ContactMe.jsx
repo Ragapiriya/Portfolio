@@ -10,21 +10,30 @@ const ContactMe = () => {
         <div className="contact-content">
             <div style={{flex:1}}>
                 <ContactInfoCard
-                //email
+                           //email
                 iconUrl="./assets/images/email2.png"
-                text="rpriyasmail@gmail.com" />
+                text="rpriyasmail@gmail.com" 
+                // href="mailto:r2001piriya@gmail.com"
+                />
                 <ContactInfoCard
-            //phone number
+                                    //phone number
                 iconUrl="./assets/images/phone2.png"
-                text="+94770567384" />
+                text="Whatsapp: +94770567384" 
+                href="https://wa.me/+94770567384"/>
                 <ContactInfoCard
-            // linkedin
+                                    // linkedin
                 iconUrl="./assets/images/linkedin.png"
-                text="Ragapiriya Rameshkumar" />
+                text="Ragapiriya Rameshkumar" 
+                href="https://www.linkedin.com/in/ragapiriya-rameshkumar/"
+                />
+
                 <ContactInfoCard
-            //github
+                    //github
                 iconUrl="./assets/images/github.png"
-                text="Ragapiriya" />
+                text="Ragapiriya" 
+                href="https://github.com/Ragapiriya"
+                
+                />
             </div>
            
             <div style={{flex:1}}>
