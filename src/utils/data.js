@@ -7,7 +7,6 @@ export const dataOfSkills=[
             {skill:"CSS3" ,percentage:"90%" },
             {skill:"JavaScript" ,percentage:"60%"} ,
             {skill:"React.js" ,percentage:"65%"},
-
         ]
     },
     {
@@ -16,6 +15,7 @@ export const dataOfSkills=[
         skills:[
             {skill:"Node.js" ,percentage:"60%"},
             {skill:"Express.js" ,percentage:"40%"},
+            {skill: "PHP",percentage:"80%"},
         ]
     },
     
@@ -23,33 +23,37 @@ export const dataOfSkills=[
         title:"Programming Languages",
         icon:"./Assets/images/prog.png",
         skills:[
-            {skill: "Problems olving",percentage:"75%"},
-            {skill: "Leadership",percentage:"80%"},
-            {skill: "Team work",percentage:"80%"},
-            {skill: "Communication",percentage:"80%"},
-            {skill: "Problems olving",percentage:"75%"},
-            {skill: "Leadership",percentage:"80%"},
-            {skill: "Team work",percentage:"80%"},
-            {skill: "Communication",percentage:"80%"}
-
-
-
+            {skill: "Python",percentage:"75%"},
+            {skill: "C",percentage:"80%"},
+            {skill: "JAVA",percentage:"80%"},
+            {skill: "JavaScript",percentage:"80%"},
+            {skill: "R",percentage:"75%"},
+            
         ]
     },
     {
-        title:"Tools",
+        title:"Software Tools",
         icon:"./Assets/images/tools2.png",
         skills:[
             {skill:"Git & GitHub",percentage:"50%"},
             {skill: "Visual Studio Code",percentage:"80%"},
+            {skill: "Eclipse",percentage:"80%"},
+            {skill: "Figma",percentage:"80%"},
+            {skill: "Postman",percentage:"80%"},
+            {skill: "Jira",percentage:"80%"},
+            {skill: "Adobe Illustrator",percentage:"80%"},
+            {skill: "Adobe Photoshop",percentage:"80%"},
+            {skill: "Adobe Lightroom",percentage:"80%"},
+            {skill: "Canva",percentage:"80%"},
+            {skill: "PowerBI",percentage:"80%"},
         ]
     },
     {
-        title:"Tools",
+        title:"DataBase",
         icon:"./Assets/images/tools2.png",
         skills:[
-            {skill:"Git & GitHub",percentage:"50%"},
-            {skill: "Visual Studio Code",percentage:"80%"},
+            {skill:"MongoDB",percentage:"50%"},
+            {skill: "MySQL",percentage:"80%"},
         ]
     }
 ];

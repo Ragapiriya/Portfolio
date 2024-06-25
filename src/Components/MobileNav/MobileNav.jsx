@@ -10,7 +10,7 @@ const MobileNav = ({isOpen,toggleMenu}) => {
             <img className='logo' src='./Assets/images/logo.jpg' />
             <ul>
             <li>
-                    <a className='menu-item'>Home</a>
+                    <a  className='menu-item'>Home</a>
                 </li>
                
                 <li>

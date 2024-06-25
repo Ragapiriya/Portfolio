@@ -6,7 +6,7 @@ const ContactInfoCard = ({iconUrl,text,href}) => {
         <div className="icon">
             <img src={iconUrl} alt="{text}" />
         </div>
-        { {href} ? <a href={href} target='_blank'>{text}</a> :<p>{text}</p> }
+        { {href} ? <a href={href} target='_blank' rel="noreferrer">{text}</a> :<p>{text}</p> }
         
     </div>
   )

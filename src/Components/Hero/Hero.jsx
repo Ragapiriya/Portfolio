@@ -22,11 +22,11 @@ The sun dipped below the horizon, casting a warm orange glow across the tranquil
        <div className='hero-img'>
           <div>
                 <div className='tech-icon'>
-                <img src='./Assets/images/reactNew.png'/>
+                <img alt='' src='./Assets/images/reactNew.png'/>
                  
                 </div>
                 <div className="portfolio-item">
-                  <img  onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}  src='./Assets/images/myPhoto2.jpg'/>
+                  <img  alt='' onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}  src='./Assets/images/myPhoto2.jpg'/>
                   {hovered && <div className='hover-message'>Hello, It's me RAGAPIRIYA <br></br>( • ᴗ - ) ✧<br></br> Welcome to My Portfolio </div>}
                 </div>
  
@@ -34,13 +34,13 @@ The sun dipped below the horizon, casting a warm orange glow across the tranquil
           <div>
 
                 <div className='tech-icon'>
-                    <img src='./Assets/images/expressjs.png'/>
+                    <img alt='' src='./Assets/images/expressjs.png'/>
                 </div>
                 <div className='tech-icon'>
-                    <img src='./Assets/images/nodejsNew.png'/>
+                    <img alt='' src='./Assets/images/nodejsNew.png'/>
                 </div>
                 <div className='tech-icon'>
-                    <img src='./Assets/images/mongodbNew.png'/>
+                    <img alt='' src='./Assets/images/mongodbNew.png'/>
                 </div>
 
           </div>

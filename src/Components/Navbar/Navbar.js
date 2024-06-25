@@ -43,7 +43,7 @@ const Navbar = ({scrollTocomponent}) => {
                     <a className='menu-item' onClick={()=>scrollTocomponent('hero')}>Home</a>
                 </li>
                 <li>
-                    <a className='menu-item' onClick={()=>scrollTocomponent('skills')}>Skills</a>
+                    <a className='menu-item' onClick={()=>scrollTocomponent('skills')}>Technical Proficiency</a>
                 </li>
                 <li>
                     <a className='menu-item' onClick={()=>scrollTocomponent('projects')}>Projects</a>
@@ -51,7 +51,7 @@ const Navbar = ({scrollTocomponent}) => {
                 <li>
                     <a className='menu-item' onClick={()=>scrollTocomponent('contact-me')}>Contact-me</a>
                 </li>
-                <button className='contact-btn'> <a href='https://drive.google.com/file/d/1-Oot4sT9kk4wocw6yxXDRDVOVVoNP-aw/view?usp=sharing'target="_blank"> FindMyResume </a></button>
+                <button className='contact-btn'> <a href='https://drive.google.com/file/d/1-Oot4sT9kk4wocw6yxXDRDVOVVoNP-aw/view?usp=sharing'target="_blank" rel="noreferrer"> FindMyResume </a></button>
 
             </ul>
             <button className='menu-btn' onClick={toggleMenu}>

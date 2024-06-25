@@ -6,7 +6,6 @@ import Projects from './Components/Projects/Projects';
 import ContactMe from './Components/ContactMe/ContactMe';
 import Footer from './Components/Footer/Footer';
 import { useRef } from 'react';
-import userEvent from '@testing-library/user-event';
 
 const App=()=> {
   const heroRef=useRef(null);
