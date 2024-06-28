@@ -20,3 +20,59 @@
     align-items: center;
     justify-content: space-between;
 }
+.education-info-content h7{
+    font-size: 1.2rem;
+    font-weight: 480;
+
+    padding: 0.5rem 0.5rem  ;
+    background: linear-gradient(180deg, #967bf8 0%, #b8aae8);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /* border-bottom: 1.9px solid #6751b9; */
+    
+}
+.education-info-content h8{
+    font-size: 1.0rem;
+    font-weight: 480;
+    padding: 0.5rem 2.5rem  ;
+    background: linear-gradient(180deg, #ffffff 0%, #6c4bd7);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+
+
+}
+.education-info-content h9{
+    font-size: 0.9rem;
+    font-weight: 450;
+    padding: 0.5rem 3rem  ;
+    color:rgb(185, 198, 209) ;
+    
+
+
+}
+.education-info-content ul{
+    padding: 0.1rem 2rem  ;
+    list-style-type: none;
+    
+
+}
+.education-info-content li{
+    font-size: 0.9rem;
+    font-weight: 450;
+    padding: 0.1rem 2rem  ;
+    text-decoration:none;
+    color: #bfc1d3;
+
+}
+.details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.details h8 {
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+  }
