@@ -94,3 +94,6 @@ export const projects=[
 
     }
 ];
+export const blogs=[
+
+];

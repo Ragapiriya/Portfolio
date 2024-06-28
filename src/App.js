@@ -6,12 +6,14 @@ import Projects from './Components/Projects/Projects';
 import ContactMe from './Components/ContactMe/ContactMe';
 import Footer from './Components/Footer/Footer';
 import { useRef } from 'react';
+import EdBlogs from './Components/EdBlogs/EdBlogs';
 
 const App=()=> {
   const heroRef=useRef(null);
   const skillsRef= useRef(null);
   const projectsRef= useRef(null);
   const contactmeRef= useRef(null);
+  const edblogsRef= useRef(null);
   const scrollTocomponent=(componentName)=>{
     let offset=0;
     switch (componentName){
@@ -31,6 +33,9 @@ const App=()=> {
         // contactmeRef.current.scrollIntoView({behavior:'smooth'});
         offset = contactmeRef.current.offsetTop - 60;
         break;
+      case 'edblogs':
+        offset = edblogsRef.current.offsetTop -60;
+        break;
       default:
         break;
     }
@@ -47,6 +52,9 @@ const App=()=> {
       <div className='container'>
         <div ref={heroRef}>
           <Hero/>
+        </div>
+        <div ref={edblogsRef}>
+          <EdBlogs/>
         </div>
         <div ref={skillsRef}>
           <Skills/>

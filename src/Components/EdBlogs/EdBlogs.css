@@ -1,0 +1,22 @@
+.edblogs-container{
+    margin: 4rem 0;
+    position: relative;
+}
+.edblogs-container h5{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 3rem;
+}
+.edblogs-content{
+    display: flex;
+    gap: 3rem;
+}
+@media (max-width:768px) {
+    .edblogs-content{
+        flex-direction: column-reverse;
+    }
+    .edblogs-container h5{
+        font-size: 1.3rem;
+        margin-bottom:2rem ;
+    }
+}

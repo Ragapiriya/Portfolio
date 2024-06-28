@@ -43,6 +43,9 @@ const Navbar = ({scrollTocomponent}) => {
                     <a className='menu-item' onClick={()=>scrollTocomponent('hero')}>Home</a>
                 </li>
                 <li>
+                    <a className='menu-item' onClick={()=>scrollTocomponent('edblogs')}>Education & Blogs</a>
+                </li>
+                <li>
                     <a className='menu-item' onClick={()=>scrollTocomponent('skills')}>Technical Proficiency</a>
                 </li>
                 <li>
