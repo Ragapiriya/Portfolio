@@ -6,7 +6,7 @@ const Blogs = () => {
     <div className="blogs-info">
     <h6>Medium Blogs</h6>
       <div className="blogs-info-content">
-        Hello
+        Medium Blogs come here
       </div>
       </div></>
   )

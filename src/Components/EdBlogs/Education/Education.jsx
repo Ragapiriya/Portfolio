@@ -49,6 +49,7 @@ const Education = () => {
               <li>Combined Mathematics: 'A'</li>
               <li>Chemistry: 'A'</li>
               <li>Physics: 'C'</li>
+              <li>General English: 'A'</li>
             </ul>
             <div className="details">
               <h8 style={{ marginLeft: "20px" }}>G.C.E Ordinary Level</h8>
