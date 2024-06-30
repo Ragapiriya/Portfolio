@@ -12,8 +12,8 @@ const Navbar = ({scrollTocomponent}) => {
     <MobileNav isOpen={openMenu} toggleMenu={toggleMenu}/>
     <nav className='nav-wrapper'>
         <div className='nav-content'>
-            <img  alt="logo" className='logo'src='{`${process.env.PUBLIC_URL}/images/logo.jpg`}' />
-        {/* <BrowserRouter> src='./Assets/images/logo.jpg'
+            <img  alt="logo" className='logo'src='./Assets/images/logo.jpg' />
+        {/* <BrowserRouter> src=''
         public\Assets\images\logo.jpg
             <ul>
                 <li>
