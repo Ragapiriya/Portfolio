@@ -6,18 +6,43 @@
     margin: 0 1rem;
 }
 .projects-card h6{
-    font-size: 1.05rem;
+    font-size: 1.15rem;
     font-weight: 500;
     margin-bottom: 0.7rem;
 }
+.headerr{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.repo img{
+    width: 40px;
+    height: 40px;
+    border: 1.5px solid #6751b9;
+    border-radius: 23rem;
+
+
+
+}
 .year{
     display: inline-block;
-    font-size: 0.7rem;
-    font-weight: 500;
+    font-size: 0.8rem;
+    font-weight: 750;
     background-color: rgba(103, 81, 185, 0.5);
     border-radius: 0.9rem;
     padding: 0.4rem 0.6rem;
     margin-bottom: 1.3rem;
+    margin-right: 0.3rem;
+}
+.tech{
+    display: inline-block;
+    font-size: 0.7rem;
+    font-weight: 500;
+    background-color: rgba(63, 50, 108, 0.5);
+    border-radius: 0.9rem;
+    padding: 0.4rem 0.6rem;
+    margin-bottom: 1.3rem;
+    margin-right: 0.3rem;
 }
 
 .projects-card ul li{
@@ -28,7 +53,7 @@
     position: relative;
 }
 
-.projects-card ul li::after{
+.info ul li::after{
     content: "";
     width: 0.5rem;
     height: 0.5rem;

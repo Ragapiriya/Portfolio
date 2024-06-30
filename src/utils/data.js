@@ -62,41 +62,60 @@ export const projects=[
         title:"ForShopaholic",
         year:"2024 June",
         type:"Individual",
-        description:["Currently Developing  a full-stack e-commerce website","Key Features: Filtering, Authentication and authorization, Payment gateway integration, Admin Panel","Technologies used: MongoDB|Express.js|React.js|Node.js "]
+        description:["Currently Developing  a full-stack e-commerce website","Key Features: Filtering, Authentication and authorization, Payment gateway integration, Admin Panel","Technologies used: "],
+        technologies:[ 'MongoDB','Express.js','React.js','Node.js'],
+        link:"https://github.com/Ragapiriya/StopWatch.git"
+
     },
     {
         title:"BondBuzz",
         year:"2024 June",
         type:"Individual",
-        description:["Currently Developing  a full-stack e-commerce website ","Done and Dusted","Technologies used: MongoDB|Express.js|React.js|Node.js|JWT|Multer "]
+        description:["Currently Developing  a full-stack e-commerce website ","Technologies used: "],
+        technologies:[ 'MongoDB','Express.js','React.js','Node.js','JWT','Multer'],
+        link:"https://github.com/Ragapiriya/StopWatch.git"
+
+
 
     },
     {
         title:"FF",
         year:"2024 March",
         type:"Group",
-        description:["Developed a full-stack e-commerce website for a perfume shop.","Contributions:Contributed to the Front-end development using React.js","Technologies used: React.js|Java(SpringBoot)|JWT|MySql|Bootstrap"]
+        description:["Developed a full-stack e-commerce website for a perfume shop.","Contributions:Contributed to the Front-end development using React.js","Technologies used: "],
+        technologies:['React.js','JWT','MySql','Bootstrap'],
+        link:"https://github.com/Ragapiriya/StopWatch.git"
 
     },
     {
         title:"ToDo app",
         year:"2024 May",
         type:"Individual",
-        description:["Technologies used:","MongoDB|Express.js|React.js|Node.js"]
+        description:["Technologies used:",],
+        technologies:["MongoDB","Express.js","React.js","Node.js"],
+        link:"https://github.com/Ragapiriya/StopWatch.git"
+
 
     },
     {
         title:"Weather App.",
         year:"2024 May",
         type:"Individual",
-        description:["Technologies used:","JavaScript|CSS|APIs"]
+        description:["Technologies used: "],
+        technologies:["JavaScript","CSS","APIs"],
+        link:"https://github.com/Ragapiriya/StopWatch.git"
+
 
     },
     {
         title:"Stop Watch",
         year:"2024 May",
         type:"Individual",
-        description:["Technologies used:","JavaScript|CSS|APIs"]
+        description:["Technologies used: "],
+        technologies:["JavaScript","CSS","APIs"],
+        link:"https://github.com/Ragapiriya/StopWatch.git"
+
+
 
     }
 ];
