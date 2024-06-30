@@ -23,7 +23,7 @@ const Skills = () => {
                     key={skill.title}
                     iconUrl={skill.icon}
                     title={skill.title}
-                    // isActive={selectedSkill.title === skill.title}
+                    isActive={selectedSkill.title === skill.title}
                     onClick={()=>{
                         handleSelectSkill(skill);
                     }}

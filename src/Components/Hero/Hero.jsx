@@ -1,52 +1,67 @@
-import React, { useState } from 'react'
-import './Hero.css';
+import React, { useState } from "react";
+import "./Hero.css";
 
 const Hero = () => {
-  const [hovered,setHovered]=useState(false);
-  
-  const handleMouseEnter = ()=>{
+  const [hovered, setHovered] = useState(false);
+
+  const handleMouseEnter = () => {
     setHovered(true);
-  }
-  const handleMouseLeave = ()=>{
+  };
+  const handleMouseLeave = () => {
     setHovered(false);
-  }
+  };
   return (
     <>
-    <section className='hero-container'>
-        <div className='hero-content'>
-            <h1>Ragapiriya Rameshkumar</h1>
-            <p>Passionate towards frontend Development.Certainly! Here's a sample paragraph:
-
-The sun dipped below the horizon, casting a warm orange glow across the tranquil lake. Reflecting the sky's hues, the water shimmered with a gentle ripple, as if holding onto the day's last light. Trees on the distant shore stood sentinel, their leaves rustling softly in the evening breeze. A lone boat drifted lazily, its oars resting as its occupant gazed thoughtfully at the changing colors. Night approached slowly, wrapping the scene in a peaceful embrace, promising stars and whispers of distant waves as the world settled into a quiet, contemplative stillness.</p>
+      <section className="hero-container">
+        <div className="hero-content">
+          <h1>Ragapiriya Rameshkumar</h1>
+          <h3>Software Engineering Undergraduate</h3>
+          <p>
+            I am an aspiring software engineer third-year undergraduate studying
+            at the University of Kelaniya. I am passionate about developing
+            full-stack websites and have a strong foundation in Data Structures
+            and Algorithms (DSA) as well as Object-Oriented Programming (OOP)
+            concepts in Python. I am flexible and thrive in teamwork and
+            collaboration environments. I look forward to opportunities that
+            allow me to showcase and further develop both my technical and soft
+            skills.
+          </p>
         </div>
-       <div className='hero-img'>
+        <div className="hero-img">
           <div>
-                <div className='tech-icon'>
-                <img alt='' src='./Assets/images/reactNew.png'/>
-                 
+            <div className="tech-icon">
+              <img alt="" src="./Assets/images/reactNew.png" />
+            </div>
+            <div className="portfolio-item">
+              <img
+                alt=""
+                onMouseEnter={handleMouseEnter}
+                onMouseLeave={handleMouseLeave}
+                src="./Assets/images/myPhoto2.jpg"
+              />
+              {hovered && (
+                <div className="hover-message">
+                  Hello, It's me RAGAPIRIYA <br></br>( • ᴗ - ) ✧<br></br>{" "}
+                  Welcome to My Portfolio{" "}
                 </div>
-                <div className="portfolio-item">
-                  <img  alt='' onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}  src='./Assets/images/myPhoto2.jpg'/>
-                  {hovered && <div className='hover-message'>Hello, It's me RAGAPIRIYA <br></br>( • ᴗ - ) ✧<br></br> Welcome to My Portfolio </div>}
-                </div>
- 
+              )}
+            </div>
           </div>
           <div>
-
-                <div className='tech-icon'>
-                    <img alt='' src='./Assets/images/expressjs.png'/>
-                </div>
-                <div className='tech-icon'>
-                    <img alt='' src='./Assets/images/nodejsNew.png'/>
-                </div>
-                <div className='tech-icon'>
-                    <img alt='' src='./Assets/images/mongodbNew.png'/>
-                </div>
-
+            <div className="tech-icon">
+              <img alt="" src="./Assets/images/expressjs.png" />
+            </div>
+            <div className="tech-icon">
+              <img alt="" src="./Assets/images/nodejsNew.png" />
+            </div>
+            <div className="tech-icon">
+              <img alt="" src="./Assets/images/mongodbNew.png" />
+            </div>
           </div>
-        </div> 
-    </section></>
-  )
-}
+        </div>
+      </section>
+    </>
+  );
+};
 
 export default Hero;

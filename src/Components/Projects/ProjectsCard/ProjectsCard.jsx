@@ -7,6 +7,8 @@ const ProjectsCard = ({details}) => {
          <div className="projects-card">
             <h6>{details.title}</h6>
             <div className='year'>{details.year}</div>
+            <div className='year'>{details.type}</div>
+
             <ul>
             {details.description.map((item)=>(
                 <li key={item}>{item}</li>

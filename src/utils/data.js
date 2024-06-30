@@ -3,29 +3,29 @@ export const dataOfSkills=[
         title: "Frontend",
         icon:"./Assets/images/frontend2.png",
         skills:[
-            {skill:"HTML5",percentage:"80%" },
+            {skill:"HTML5",percentage:"85%" },
             {skill:"CSS3" ,percentage:"90%" },
-            {skill:"JavaScript" ,percentage:"60%"} ,
-            {skill:"React.js" ,percentage:"65%"},
+            {skill:"JavaScript" ,percentage:"70%"} ,
+            {skill:"React.js" ,percentage:"95%"},
         ]
     },
     {
         title:"Backend",
         icon:"./Assets/images/backend2.png",
         skills:[
-            {skill:"Node.js" ,percentage:"60%"},
-            {skill:"Express.js" ,percentage:"40%"},
-            {skill: "PHP",percentage:"80%"},
+            {skill:"Node.js" ,percentage:"85%"},
+            {skill:"Express.js" ,percentage:"85%"},
+            {skill: "PHP",percentage:"75%"},
         ]
     },
     
     {
         title:"Programming Languages",
-        icon:"./Assets/images/prog.png",
+        icon:"./Assets/images/prog2.png",
         skills:[
             {skill: "Python",percentage:"75%"},
-            {skill: "C",percentage:"80%"},
-            {skill: "JAVA",percentage:"80%"},
+            {skill: "C",percentage:"90%"},
+            {skill: "JAVA",percentage:"90%"},
             {skill: "JavaScript",percentage:"80%"},
             {skill: "R",percentage:"75%"},
             
@@ -33,64 +33,70 @@ export const dataOfSkills=[
     },
     {
         title:"Software Tools",
-        icon:"./Assets/images/tools2.png",
+        icon:"./Assets/images/tools4.png",
         skills:[
-            {skill:"Git & GitHub",percentage:"50%"},
-            {skill: "Visual Studio Code",percentage:"80%"},
-            {skill: "Eclipse",percentage:"80%"},
-            {skill: "Figma",percentage:"80%"},
-            {skill: "Postman",percentage:"80%"},
-            {skill: "Jira",percentage:"80%"},
-            {skill: "Adobe Illustrator",percentage:"80%"},
-            {skill: "Adobe Photoshop",percentage:"80%"},
-            {skill: "Adobe Lightroom",percentage:"80%"},
+            {skill:"Git & GitHub",percentage:"80%"},
+            {skill: "Visual Studio Code",percentage:"90%"},
+            {skill: "Eclipse",percentage:"70%"},
+            {skill: "Figma",percentage:"70%"},
+            {skill: "Postman",percentage:"85%"},
+            {skill: "Jira",percentage:"70%"},
+            {skill: "Adobe Illustrator",percentage:"65%"},
+            {skill: "Adobe Photoshop",percentage:"70%"},
+            {skill: "Adobe Lightroom",percentage:"85%"},
             {skill: "Canva",percentage:"80%"},
-            {skill: "PowerBI",percentage:"80%"},
+            {skill: "PowerBI",percentage:"70%"},
         ]
     },
     {
         title:"DataBase",
-        icon:"./Assets/images/tools2.png",
+        icon:"./Assets/images/db.png",
         skills:[
-            {skill:"MongoDB",percentage:"50%"},
+            {skill:"MongoDB",percentage:"75%"},
             {skill: "MySQL",percentage:"80%"},
         ]
     }
 ];
 export const projects=[
     {
-        title:"Project1",
+        title:"ForShopaholic",
         year:"2024 June",
-        description:["Done and Dusted","Done and Dusted","Done and Dusted","Done and Dusted","Done and Dusted"]
+        type:"Individual",
+        description:["Currently Developing  a full-stack e-commerce website","Key Features: Filtering, Authentication and authorization, Payment gateway integration, Admin Panel","Technologies used: MongoDB|Express.js|React.js|Node.js "]
     },
     {
-        title:"Project2",
+        title:"BondBuzz",
         year:"2024 June",
-        description:["Done and Dusted","Done and Dusted","Done and Dusted","Done and Dusted","Done and Dusted"]
+        type:"Individual",
+        description:["Currently Developing  a full-stack e-commerce website ","Done and Dusted","Technologies used: MongoDB|Express.js|React.js|Node.js|JWT|Multer "]
 
     },
     {
-        title:"Project3",
+        title:"FF",
+        year:"2024 March",
+        type:"Group",
+        description:["Developed a full-stack e-commerce website for a perfume shop.","Contributions:Contributed to the Front-end development using React.js","Technologies used: React.js|Java(SpringBoot)|JWT|MySql|Bootstrap"]
+
+    },
+    {
+        title:"ToDo app",
         year:"2024 May",
-        description:["Done and Dusted","Done and Dusted","Done and Dusted","Done and Dusted","Done and Dusted"]
+        type:"Individual",
+        description:["Technologies used:","MongoDB|Express.js|React.js|Node.js"]
 
     },
     {
-        title:"Project4",
+        title:"Weather App.",
         year:"2024 May",
-        description:["Done and Dusted","Done and Dusted","Done and Dusted","Done and Dusted","Done and Dusted"]
+        type:"Individual",
+        description:["Technologies used:","JavaScript|CSS|APIs"]
 
     },
     {
-        title:"Project5",
-        year:"2023 December",
-        description:["Done and Dusted","Done and Dusted","Done and Dusted","Done and Dusted","Done and Dusted"]
-
-    },
-    {
-        title:"Project6",
-        year:"2023 December",
-        description:["Done and Dusted","Done and Dusted","Done and Dusted","Done and Dusted","Done and Dusted"]
+        title:"Stop Watch",
+        year:"2024 May",
+        type:"Individual",
+        description:["Technologies used:","JavaScript|CSS|APIs"]
 
     }
 ];
