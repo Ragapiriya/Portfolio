@@ -22,7 +22,7 @@ const Hero = () => {
             full-stack websites and have a strong foundation in Data Structures
             and Algorithms (DSA) as well as Object-Oriented Programming (OOP)
             concepts in Python. I am flexible and thrive in teamwork and
-            collaboration environments. I look forward to opportunities that
+            collaboration environments. I look forward to opportunities that
             allow me to showcase and further develop both my technical and soft
             skills.
           </p>
