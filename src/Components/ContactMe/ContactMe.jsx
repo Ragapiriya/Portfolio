@@ -11,25 +11,25 @@ const ContactMe = () => {
             <div style={{flex:1}}>
                 <ContactInfoCard
                            //email
-                iconUrl="./assets/images/email2.png"
+                iconUrl="./Assets/images/email2.png"
                 text="rpriyasmail@gmail.com" 
                 // href="mailto:r2001piriya@gmail.com"
                 />
                 <ContactInfoCard
                                     //phone number
-                iconUrl="./assets/images/phone2.png"
+                iconUrl="./Assets/images/phone2.png"
                 text="Whatsapp: +94770567384" 
                 href="https://wa.me/+94770567384"/>
                 <ContactInfoCard
                                     // linkedin
-                iconUrl="./assets/images/linkedin.png"
+                iconUrl="./Assets/images/linkedin.png"
                 text="Ragapiriya Rameshkumar" 
                 href="https://www.linkedin.com/in/ragapiriya-rameshkumar/"
                 />
 
                 <ContactInfoCard
                     //github
-                iconUrl="./assets/images/github.png"
+                iconUrl="./Assets/images/github.png"
                 text="Ragapiriya" 
                 href="https://github.com/Ragapiriya"
                 
