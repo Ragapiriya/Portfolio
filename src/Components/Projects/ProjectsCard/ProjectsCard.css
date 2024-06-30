@@ -53,6 +53,7 @@
     position: relative;
 }
 
+
 .info ul li::after{
     content: "";
     width: 0.5rem;

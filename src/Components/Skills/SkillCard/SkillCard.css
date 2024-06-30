@@ -54,11 +54,15 @@
         width: 1.8rem;
     }
 }
+.skills-card span{
+    font-size: 0.9rem;
+
+}
 
 @media (max-width: 768px)
 {
     .skills-card span{
-        font-size: 0.9rem;
+        font-size: 0.8rem;
 
     }
 }
