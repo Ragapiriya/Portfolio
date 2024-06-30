@@ -64,7 +64,7 @@ export const projects=[
         type:"Individual",
         description:["Currently Developing  a full-stack e-commerce website","Key Features: Filtering, Authentication and authorization, Payment gateway integration, Admin Panel","Technologies used: "],
         technologies:[ 'MongoDB','Express.js','React.js','Node.js'],
-        link:"https://github.com/Ragapiriya/StopWatch.git"
+        link:"#"
 
     },
     {
@@ -73,7 +73,7 @@ export const projects=[
         type:"Individual",
         description:["Currently Developing  a full-stack e-commerce website ","Technologies used: "],
         technologies:[ 'MongoDB','Express.js','React.js','Node.js','JWT','Multer'],
-        link:"https://github.com/Ragapiriya/StopWatch.git"
+        link:"#"
 
 
 
@@ -84,7 +84,7 @@ export const projects=[
         type:"Group",
         description:["Developed a full-stack e-commerce website for a perfume shop.","Contributions:Contributed to the Front-end development using React.js","Technologies used: "],
         technologies:['React.js','JWT','MySql','Bootstrap'],
-        link:"https://github.com/Ragapiriya/StopWatch.git"
+        link:"https://github.com/Thenujan-V/Perfume_shop_web_app.git"
 
     },
     {
@@ -93,7 +93,7 @@ export const projects=[
         type:"Individual",
         description:["Technologies used:",],
         technologies:["MongoDB","Express.js","React.js","Node.js"],
-        link:"https://github.com/Ragapiriya/StopWatch.git"
+        link:"https://github.com/Ragapiriya/ToDoList.git"
 
 
     },
@@ -103,7 +103,7 @@ export const projects=[
         type:"Individual",
         description:["Technologies used: "],
         technologies:["JavaScript","CSS","APIs"],
-        link:"https://github.com/Ragapiriya/StopWatch.git"
+        link:"https://github.com/Ragapiriya/WeatherApplication.git"
 
 
     },

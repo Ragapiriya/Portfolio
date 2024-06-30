@@ -28,9 +28,9 @@ const Education = () => {
             </ul>
             <h9>Key Concepts:</h9>
             <ul>
-              <li>-x</li>
-              <li>-x</li>
-              <li>-x</li>
+              <li>-DataStructure and Algorithms (DSA)</li>
+              <li>-Object Oriented Programming (OOP)</li>
+              
             </ul>
           </div>
           <div className="school-content">

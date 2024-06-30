@@ -37,10 +37,10 @@ const Projects = () => {
         <div className="projects-content">
 
             <div className="arrow-right" onClick={slideRight}>
-              <span class="material-symbols-outlined">right</span>
+              <span class="material-symbols-outlined">🡺</span>
             </div>
             <div className="arrow-left" onClick={slideLeft}>
-              <span class="material-symbols-outlined">left</span>
+              <span class="material-symbols-outlined">🡸</span>
             </div>
           <Slider ref={sliderRef} {...settings}>
             {projects.map((item)=>
