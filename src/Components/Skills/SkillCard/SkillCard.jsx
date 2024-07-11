@@ -7,7 +7,8 @@ const SkillCard = ({title, iconUrl,isActive, onClick}) => {
     onClick={()=>onClick()}
     >
         <div className="skill-icon">
-            <img src={iconUrl} alt={title} />
+            {/* <img src={iconUrl} alt={title} /> */}
+            <img src={`${process.env.PUBLIC_URL}/${iconUrl}`} alt={title} />
         </div>
         <span>{title}</span>
           

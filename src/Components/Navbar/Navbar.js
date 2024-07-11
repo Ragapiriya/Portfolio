@@ -1,19 +1,28 @@
-import React, { useState } from 'react'
-import './Navbar.css';
-import MobileNav from '../MobileNav/MobileNav';
+import React, { useState } from "react";
+import "./Navbar.css";
+import MobileNav from "../MobileNav/MobileNav";
 
-const Navbar = ({scrollTocomponent}) => {
-    const [openMenu,setOpenMenu]=useState(false);
-    const toggleMenu = ()=>{
-        setOpenMenu(!openMenu);
-    }
+const Navbar = ({ scrollTocomponent }) => {
+  const isProduction = process.env.NODE_ENV === "production";
+
+  const logoSrc = isProduction
+    ? `${process.env.PUBLIC_URL}/Assets/images/logo.jpg`
+    : "/Assets/images/logo2.jpg";
+
+
+  const [openMenu, setOpenMenu] = useState(false);
+  const toggleMenu = () => {
+    setOpenMenu(!openMenu);
+  };
+  console.log("Environment:", process.env.NODE_ENV);
+  console.log("Image Source:", logoSrc);
   return (
     <>
-    <MobileNav isOpen={openMenu} toggleMenu={toggleMenu}/>
-    <nav className='nav-wrapper'>
-        <div className='nav-content'>
-            <img  alt="logo" className='logo'src='./Assets/images/logo.jpg' />
-        {/* <BrowserRouter> src=''
+      <MobileNav isOpen={openMenu} toggleMenu={toggleMenu} />
+      <nav className="nav-wrapper">
+        <div className="nav-content">
+          <img alt="logo" className="logo" src={process.env.PUBLIC_URL+"/Assets/images/logo.jpg"} />
+          {/* <BrowserRouter> src=''
         public\Assets\images\logo.jpg
             <ul>
                 <li>
@@ -39,37 +48,72 @@ const Navbar = ({scrollTocomponent}) => {
             </ul>
             
             </BrowserRouter> */}
-            <ul>
-                <li>
-                    <a className='menu-item' onClick={()=>scrollTocomponent('hero')}>Home</a>
-                </li>
-                <li>
-                    <a className='menu-item' onClick={()=>scrollTocomponent('edblogs')}>Education & Blogs</a>
-                </li>
-                <li>
-                    <a className='menu-item' onClick={()=>scrollTocomponent('skills')}>Technical Proficiency</a>
-                </li>
-                <li>
-                    <a className='menu-item' onClick={()=>scrollTocomponent('projects')}>Projects</a>
-                </li>
-                <li>
-                    <a className='menu-item' onClick={()=>scrollTocomponent('contact-me')}>Contact-me</a>
-                </li>
-                <button className='contact-btn'> <a href='https://drive.google.com/file/d/1-Oot4sT9kk4wocw6yxXDRDVOVVoNP-aw/view?usp=sharing'target="_blank" rel="noreferrer"> FindMyResume </a></button>
-
-            </ul>
-            <button className='menu-btn' onClick={toggleMenu}>
-                <span class="material-symbols-outlined"
-                style={{fontSize:'1rem'}}> 
-                {openMenu ? 'close':'menu'}
-                 </span>
-             
+          <ul>
+            <li>
+              <a
+                className="menu-item"
+                onClick={() => scrollTocomponent("hero")}
+              >
+                Home
+              </a>
+            </li>
+            <li>
+              <a
+                className="menu-item"
+                onClick={() => scrollTocomponent("edblogs")}
+              >
+                Education & Blogs
+              </a>
+            </li>
+            <li>
+              <a
+                className="menu-item"
+                onClick={() => scrollTocomponent("skills")}
+              >
+                Technical Proficiency
+              </a>
+            </li>
+            <li>
+              <a
+                className="menu-item"
+                onClick={() => scrollTocomponent("projects")}
+              >
+                Projects
+              </a>
+            </li>
+            <li>
+              <a
+                className="menu-item"
+                onClick={() => scrollTocomponent("contact-me")}
+              >
+                Contact-me
+              </a>
+            </li>
+            <button className="contact-btn">
+              {" "}
+              <a
+                // href="https://drive.google.com/file/d/1-Oot4sT9kk4wocw6yxXDRDVOVVoNP-aw/view?usp=sharing"
+                href="https://drive.google.com/file/d/1liKdgwDbb4n6qpg83eEu9qnZMBoAuRoA/view?usp=drive_link"
+                target="_blank"
+                rel="noreferrer"
+              >
+                {" "}
+                FindMyResume{" "}
+              </a>
             </button>
+          </ul>
+          <button className="menu-btn" onClick={toggleMenu}>
+            <span
+              class="material-symbols-outlined"
+              style={{ fontSize: "1rem" }}
+            >
+              {openMenu ? "close" : "menu"}
+            </span>
+          </button>
         </div>
-        
-    </nav></>
+      </nav>
+    </>
+  );
+};
 
-  )
-}
-
-export default Navbar
+export default Navbar;

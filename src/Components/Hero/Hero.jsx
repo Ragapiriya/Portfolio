@@ -18,7 +18,7 @@ const Hero = () => {
           <h3>Software Engineering Undergraduate</h3>
           <p>
             I am an aspiring software engineer third-year undergraduate studying
-            at the University of Kelaniya. I am passionate about developing
+            at the University of Kelaniya. I am passionate about developing
             full-stack websites and have a strong foundation in Data Structures
             and Algorithms (DSA) as well as Object-Oriented Programming (OOP)
             concepts in Python. I am flexible and thrive in teamwork and
@@ -30,14 +30,14 @@ const Hero = () => {
         <div className="hero-img">
           <div>
             <div className="tech-icon">
-              <img alt="" src="./Assets/images/reactNew.png" />
+              <img alt="" src={process.env.PUBLIC_URL+"/Assets/images/reactNew.png"} />
             </div>
             <div className="portfolio-item">
               <img
                 alt=""
                 onMouseEnter={handleMouseEnter}
                 onMouseLeave={handleMouseLeave}
-                src="./Assets/images/myPhoto2.jpg"
+                src={process.env.PUBLIC_URL+"/Assets/images/myPhoto2.jpg"}
               />
               {hovered && (
                 <div className="hover-message">
@@ -49,13 +49,13 @@ const Hero = () => {
           </div>
           <div>
             <div className="tech-icon">
-              <img alt="" src="./Assets/images/expressjs.png" />
+              <img alt="" src={process.env.PUBLIC_URL+"/Assets/images/expressjs.png"} />
+            </div>
+            <div className="tech-icon"> 
+              <img alt="" src={process.env.PUBLIC_URL+"/Assets/images/nodejsNew.png"} />
             </div>
             <div className="tech-icon">
-              <img alt="" src="./Assets/images/nodejsNew.png" />
-            </div>
-            <div className="tech-icon">
-              <img alt="" src="./Assets/images/mongodbNew.png" />
+              <img alt="" src={process.env.PUBLIC_URL+"/Assets/images/mongodbNew.png"} />
             </div>
           </div>
         </div>

@@ -9,7 +9,7 @@ const ProjectsCard = ({ details }) => {
           <h6>{details.title}</h6>
           <div className="repo">
             <a href={details.link} rel="noreferrer" target="_blank">
-              <img src="./Assets/images/github2.png" alt="github" />
+              <img src={process.env.PUBLIC_URL + "/Assets/images/github2.png"} alt="github" />
             </a>
           </div>
         </div>

@@ -2,6 +2,7 @@ export const dataOfSkills=[
     {
         title: "Frontend",
         icon:"./Assets/images/frontend2.png",
+        
         skills:[
             {skill:"HTML5",percentage:"85%" },
             {skill:"CSS3" ,percentage:"90%" },
@@ -62,31 +63,31 @@ export const projects=[
         title:"ForShopaholic",
         year:"2024 June",
         type:"Individual",
-        description:["Currently Developing  a full-stack e-commerce website","Key Features: Filtering, Authentication and authorization, Payment gateway integration, Admin Panel","Technologies used: "],
+        description:["Currently Developing  a full-stack e-commerce website","Key Features: Filtering, Authentication and authorization, Payment gateway integration, Admin Panel","Technologies will be included: "],
         technologies:[ 'MongoDB','Express.js','React.js','Node.js'],
-        link:"#"
+        link:"https://github.com/Ragapiriya/ForShopaholic"
 
     },
     {
         title:"BondBuzz",
         year:"2024 June",
         type:"Individual",
-        description:["Currently Developing  a full-stack e-commerce website ","Technologies used: "],
+        description:["Currently Developing  a full-stack e-commerce website ","Technologies will be included: "],
         technologies:[ 'MongoDB','Express.js','React.js','Node.js','JWT','Multer'],
-        link:"#"
+        link:"https://github.com/Ragapiriya/mernApp"
 
 
 
     },
-    {
-        title:"FF",
-        year:"2024 March",
-        type:"Group",
-        description:["Developed a full-stack e-commerce website for a perfume shop.","Contributions:Contributed to the Front-end development using React.js","Technologies used: "],
-        technologies:['React.js','JWT','MySql','Bootstrap'],
-        link:"https://github.com/Thenujan-V/Perfume_shop_web_app.git"
+    // {
+    //     title:"FF",
+    //     year:"2024 March",
+    //     type:"Group",
+    //     description:["Developed a full-stack e-commerce website for a perfume shop.","Contributions:Contributed to the Front-end development using React.js","Technologies used: "],
+    //     technologies:['React.js','JWT','MySql','Bootstrap'],
+    //     link:"https://github.com/Thenujan-V/Perfume_shop_web_app.git"
 
-    },
+    // },
     {
         title:"ToDo app",
         year:"2024 May",
