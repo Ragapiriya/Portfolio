@@ -4,17 +4,18 @@ import './index.css';
 import App from './App';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-import { Helmet } from 'react-helmet';
+// import { Helmet } from 'react-helmet';
 
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode> 
+  <React.StrictMode>    
+     {/* used to help developers identify potential issues in an application.  */}
     <div>
-    <Helmet>
+    {/* <Helmet>
         <title>Ragapiriya</title>
-      </Helmet>
+      </Helmet> */}
       <App />
     </div>
     

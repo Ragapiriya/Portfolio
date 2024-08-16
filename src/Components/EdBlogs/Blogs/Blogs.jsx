@@ -13,11 +13,39 @@ const Blogs = () => {
             <img src={process.env.PUBLIC_URL + "/Assets/images/medium.png"} alt="medium" />
           </a>
         </div>
+        <br></br>
+        <h9>It is a document or an agreement that legally permits the users to use and distribute the software. It is given by the company or organization who is the owner or developer of the software product.</h9>
         </div>
-       <br></br>
-       <h9>It is a document or an agreement that legally permits the users to use and distribute the software. It is given by the company or organization who is the owner or developer of the software product.</h9>
+        <div className="header">
+        <h7>Encapsulation</h7>
+        <div className="medium">
+          <a href="https://medium.com/@r2001piriya/encapsulation-1409451b6821" rel="nonreferrer" target='_blank'>
+            <img src={process.env.PUBLIC_URL + "/Assets/images/medium.png"} alt="medium" />
+          </a>
+        </div>
+        <br></br>
+        <h9>Encapsulation is a core concept in object-oriented programming (OOP) that plays a critical role in protecting data integrity within an application. By wrapping variables and methods inside a class, encapsulation restricts direct access from outside code, ensuring that data can be only accessed and modified in controlled ways.</h9>
+        </div>
+        
+        <div className="header">
+        <h7>Access Modifiers</h7>
+        <div className="medium">
+          <a href="https://medium.com/@r2001piriya/access-modifiers-8b3463e37e97" rel="nonreferrer" target='_blank'>
+            <img src={process.env.PUBLIC_URL + "/Assets/images/medium.png"} alt="medium" />
+          </a>
+        </div>
+        <br></br>
+        <h9>As the prefix “Access” says, access modifiers limit the accessibility or the scope of the code. It adds extra layers of security to the program and restricts unauthorized access. </h9>
+        </div>
+        
+      
       </div>
-      </div></>
+    
+    
+    </div>
+      
+      
+    </>
   )
 }
 

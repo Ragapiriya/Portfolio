@@ -24,10 +24,10 @@ const Projects = () => {
   };
 
   const slideRight = () =>{
-    sliderRef.current.slickNext();
+    sliderRef.current.slickNext(); // control the slide navigation.
   }
   const slideLeft = () =>{
-    sliderRef.current.slickPrev();
+    sliderRef.current.slickPrev(); // control the slide navigation.
   }
   return (
     <>
@@ -47,6 +47,7 @@ const Projects = () => {
                 <ProjectsCard key={item.title} details={item}/>
             )} 
           </Slider>
+          {/* By passing sliderRef as a ref prop to the Slider component, sliderRef.current will hold the actual Slider instance once the component is mounted. */}
             
             
         </div>

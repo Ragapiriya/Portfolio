@@ -1,27 +1,28 @@
-import React from 'react'
-import './SkillsInforCard.css'
+import React from "react";
+import "./SkillsInforCard.css";
 
-const SkillsInforCard = ({heading,skills}) => {
+const SkillsInforCard = ({ heading, skills }) => {
   return (
-   <div className="skills-info-card">
-    <h6>{heading}</h6>
-    <div className="skills-info-content">
-      {skills.map((item,index)=>(
-        <React.Fragment key={`skill_${index}`}>
+    <div className="skills-info-card">
+      <h6>{heading}</h6>
+      <div className="skills-info-content">
+        {skills.map((item, index) => (
+          <React.Fragment key={`skill_${index}`}>
             <div className="skill-info">
               <p>{item.skill}</p>
               <p className="percentage">{item.percentage}</p>
             </div>
-        <div className="skill-progress-bg">
-          <div className="skill-progress" style={{width:item.percentage}}></div>
-        </div>
-
-
-        </React.Fragment>
-      ))}
+            <div className="skill-progress-bg">
+              <div
+                className="skill-progress"
+                style={{ width: item.percentage }}
+              ></div>
+            </div>
+          </React.Fragment>
+        ))}
+      </div>
     </div>
-   </div>
-  )
-}
+  );
+};
 
-export default SkillsInforCard
+export default SkillsInforCard;
