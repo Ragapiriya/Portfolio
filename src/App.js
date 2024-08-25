@@ -7,10 +7,12 @@ import ContactMe from './Components/ContactMe/ContactMe';
 import Footer from './Components/Footer/Footer';
 import { useRef } from 'react';
 import EdBlogs from './Components/EdBlogs/EdBlogs';
+import Projectscopy from './Components/Projects copy/Projects';
 
 const App=()=> {
   const heroRef=useRef(null);
   const skillsRef= useRef(null);
+  const projectscopyRef= useRef(null);
   const projectsRef= useRef(null);
   const contactmeRef= useRef(null);
   const edblogsRef= useRef(null);
@@ -24,6 +26,10 @@ const App=()=> {
       case 'skills':
         offset = skillsRef.current.offsetTop - 60;
         // skillsRef.current.scrollIntoView({behavior:'smooth'});
+        break;
+        case 'projectscopy':
+        offset = projectscopyRef.current.offsetTop - 60;
+        // projectscopyRef.current.scrollIntoView({behavior:'smooth'});
         break;
       case 'projects':
         offset = projectsRef.current.offsetTop - 60;
@@ -59,6 +65,9 @@ const App=()=> {
         <div ref={skillsRef}>
           <Skills/>
         </div>
+        {/* <div ref={projectscopyRef}>
+          <Projectscopy/>
+        </div> */}
         <div ref={projectsRef}>
           <Projects/>
         </div>

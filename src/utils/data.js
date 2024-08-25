@@ -60,7 +60,7 @@ export const dataOfSkills=[
 ];
 export const projects=[
     {
-        title:"ForShopaholic",
+        title:"1. ForShopaholic",
         year:"2024 June",
         type:"Individual",
         description:["Currently Developing  a full-stack e-commerce website","Key Features: Filtering, Authentication and authorization, Payment gateway integration, Admin Panel","Technologies will be included: "],
@@ -69,7 +69,7 @@ export const projects=[
 
     },
     {
-        title:"BondBuzz",
+        title:"2. BondBuzz",
         year:"2024 June",
         type:"Individual",
         description:["Currently Developing  a full-stack e-commerce website ","Technologies will be included: "],
@@ -89,7 +89,7 @@ export const projects=[
 
     // },
     {
-        title:"ToDo app",
+        title:"3. ToDo app",
         year:"2024 May",
         type:"Individual",
         description:["Technologies used:",],
@@ -99,7 +99,7 @@ export const projects=[
 
     },
     {
-        title:"Weather App.",
+        title:"4. Weather App.",
         year:"2024 May",
         type:"Individual",
         description:["Technologies used: "],
@@ -109,7 +109,7 @@ export const projects=[
 
     },
     {
-        title:"Stop Watch",
+        title:"5. Stop Watch",
         year:"2024 May",
         type:"Individual",
         description:["Technologies used: "],
@@ -120,6 +120,66 @@ export const projects=[
 
     }
 ];
-export const blogs=[
 
+
+export const blogs=[
+    {
+        title:"1. Software Licenses",
+        year:"Sep 14, 2023",
+        description:["It is a document/agreement that legally permits the users to use and distribute the software. It is given by the company/ organization who is the owner/ developer of the software product."],
+        Keywords:[ 'Licensing','Ownership','Copyleft','SoftwareLicense'],
+        link:"https://medium.com/@r2001piriya/software-licenses-688eab7ab1e5"
+
+    },
+    {
+        title:"2. BondBuzz",
+        year:"2024 June",
+        type:"Individual",
+        description:["Currently Developing  a full-stack e-commerce website ","Technologies will be included: "],
+        technologies:[ 'MongoDB','Express.js','React.js','Node.js','JWT','Multer'],
+        link:"https://github.com/Ragapiriya/mernApp"
+
+
+
+    },
+    // {
+    //     title:"FF",
+    //     year:"2024 March",
+    //     type:"Group",
+    //     description:["Developed a full-stack e-commerce website for a perfume shop.","Contributions:Contributed to the Front-end development using React.js","Technologies used: "],
+    //     technologies:['React.js','JWT','MySql','Bootstrap'],
+    //     link:"https://github.com/Thenujan-V/Perfume_shop_web_app.git"
+
+    // },
+    {
+        title:"3. ToDo app",
+        year:"2024 May",
+        type:"Individual",
+        description:["Technologies used:",],
+        technologies:["MongoDB","Express.js","React.js","Node.js"],
+        link:"https://github.com/Ragapiriya/ToDoList.git"
+
+
+    },
+    {
+        title:"4. Weather App.",
+        year:"2024 May",
+        type:"Individual",
+        description:["Technologies used: "],
+        technologies:["JavaScript","CSS","APIs"],
+        link:"https://github.com/Ragapiriya/WeatherApplication.git"
+
+
+    },
+    {
+        title:"5. Stop Watch",
+        year:"2024 May",
+        type:"Individual",
+        description:["Technologies used: "],
+        technologies:["JavaScript","CSS","APIs"],
+        link:"https://github.com/Ragapiriya/StopWatch.git"
+
+
+
+    }
 ];
