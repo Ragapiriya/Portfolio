@@ -11,7 +11,7 @@ const MobileNav = ({ isOpen, toggleMenu }) => {
           <img alt="logo" className="logo" src="./Assets/images/logo.jpg" />
           <ul>
             <li>
-              <a  className="menu-item">Home</a>
+              <a className="menu-item">Home</a>
             </li>
 
             <li>
@@ -23,7 +23,17 @@ const MobileNav = ({ isOpen, toggleMenu }) => {
             <li>
               <a className="menu-item">Contact me</a>
             </li>
-            <button className="contact-btn" onClick={() => {}}>
+
+            <button
+              className="contact-btn"
+              onClick={() =>
+                window.open(
+                  "https://drive.google.com/file/d/18GenFT1Cvnco8UHzR5cxdePgLVqel4P3/view?usp=sharing",
+                  "_blank"
+                )
+              }
+              rel="noreferrer"
+            >
               FindMyResume
             </button>
           </ul>

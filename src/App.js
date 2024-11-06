@@ -1,83 +1,81 @@
-import './App.css';
-import Navbar from './Components/Navbar/Navbar';
-import Hero from './Components/Hero/Hero';
-import Skills from './Components/Skills/Skills';
-import Projects from './Components/Projects/Projects';
-import ContactMe from './Components/ContactMe/ContactMe';
-import Footer from './Components/Footer/Footer';
-import { useRef } from 'react';
-import EdBlogs from './Components/EdBlogs/EdBlogs';
-import Projectscopy from './Components/Projects copy/Projects';
+import "./App.css";
+import Navbar from "./Components/Navbar/Navbar";
+import Hero from "./Components/Hero/Hero";
+import Skills from "./Components/Skills/Skills";
+import Projects from "./Components/Projects/Projects";
+import ContactMe from "./Components/ContactMe/ContactMe";
+import Footer from "./Components/Footer/Footer";
+import { useRef } from "react";
+import EdBlogs from "./Components/EdBlogs/EdBlogs";
+import Projectscopy from "./Components/Projects copy/Projects";
 
-const App=()=> {
-  const heroRef=useRef(null);
-  const skillsRef= useRef(null);
-  const projectscopyRef= useRef(null);
-  const projectsRef= useRef(null);
-  const contactmeRef= useRef(null);
-  const edblogsRef= useRef(null);
-  const scrollTocomponent=(componentName)=>{
-    let offset=0;
-    switch (componentName){
-      case 'hero':
-        offset = heroRef.current.offsetTop - 0; 
+const App = () => {
+  const heroRef = useRef(null);
+  const skillsRef = useRef(null);
+  const projectscopyRef = useRef(null);
+  const projectsRef = useRef(null);
+  const contactmeRef = useRef(null);
+  const edblogsRef = useRef(null);
+  const scrollTocomponent = (componentName) => {
+    let offset = 0;
+    switch (componentName) {
+      case "hero":
+        offset = heroRef.current.offsetTop - 0;
         // heroRef.current.scrollIntoView({behavior:'smooth'});
         break;
-      case 'skills':
+      case "skills":
         offset = skillsRef.current.offsetTop - 60;
         // skillsRef.current.scrollIntoView({behavior:'smooth'});
         break;
-        case 'projectscopy':
+      case "projectscopy":
         offset = projectscopyRef.current.offsetTop - 60;
         // projectscopyRef.current.scrollIntoView({behavior:'smooth'});
         break;
-      case 'projects':
+      case "projects":
         offset = projectsRef.current.offsetTop - 60;
         // projectsRef.current.scrollIntoView({behavior:'smooth'});
         break;
-      case 'contact-me':
+      case "contact-me":
         // contactmeRef.current.scrollIntoView({behavior:'smooth'});
         offset = contactmeRef.current.offsetTop - 60;
         break;
-      case 'edblogs':
-        offset = edblogsRef.current.offsetTop -60;
+      case "edblogs":
+        offset = edblogsRef.current.offsetTop - 60;
         break;
       default:
         break;
     }
     window.scrollTo({
       top: offset,
-      behavior: 'smooth'
+      behavior: "smooth",
     });
-  }
+  };
   return (
     <>
-    <div className="App">
-      
-      <Navbar scrollTocomponent={scrollTocomponent}/>
-      <div className='container'>
-        <div ref={heroRef}>
-          <Hero/>
-        </div>
-        <div ref={edblogsRef}>
-          <EdBlogs/>
-        </div>
-        <div ref={skillsRef}>
-          <Skills/>
-        </div>
-        {/* <div ref={projectscopyRef}>
+      <div className="App">
+        <Navbar scrollTocomponent={scrollTocomponent} />
+        <div className="container">
+          <div ref={heroRef}>
+            <Hero />
+          </div>
+          <div ref={edblogsRef}>
+            <EdBlogs />
+          </div>
+          <div ref={skillsRef}>
+            <Skills />
+          </div>
+          {/* <div ref={projectscopyRef}>
           <Projectscopy/>
         </div> */}
-        <div ref={projectsRef}>
-          <Projects/>
+          <div ref={projectsRef}>
+            <Projects />
+          </div>
+          <div ref={contactmeRef}>
+            <ContactMe />
+          </div>
         </div>
-        <div ref={contactmeRef}>
-          <ContactMe/>
-        </div>
-      
-      </div>
-      <Footer/>
-      {/* <BrowserRouter>
+        <Footer />
+        {/* <BrowserRouter>
         <Routes>
           <Route path='/' element={<Hero/>}/>
           <Route path='/skills' element={<Skills/>}/>
@@ -86,9 +84,8 @@ const App=()=> {
         </Routes>
        
       </BrowserRouter> */}
-      
-      
-      {/* // <Navbar/>
+
+        {/* // <Navbar/>
         //     <div className='container'>
         //       <Hero/>
         //       <Skills/>
@@ -96,11 +93,9 @@ const App=()=> {
         //       <ContactMe/>
         //     </div>
         // <Footer/> */}
-        
-    </div>
+      </div>
     </>
-    
   );
-}
+};
 
 export default App;

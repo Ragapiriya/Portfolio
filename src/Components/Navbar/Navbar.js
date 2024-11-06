@@ -9,7 +9,6 @@ const Navbar = ({ scrollTocomponent }) => {
     ? `${process.env.PUBLIC_URL}/Assets/images/logo.jpg`
     : "/Assets/images/logo2.jpg";
 
-
   const [openMenu, setOpenMenu] = useState(false);
   const toggleMenu = () => {
     setOpenMenu(!openMenu);
@@ -21,7 +20,11 @@ const Navbar = ({ scrollTocomponent }) => {
       <MobileNav isOpen={openMenu} toggleMenu={toggleMenu} />
       <nav className="nav-wrapper">
         <div className="nav-content">
-          <img alt="logo" className="logo" src={process.env.PUBLIC_URL+"/Assets/images/logo.jpg"} />
+          <img
+            alt="logo"
+            className="logo"
+            src={process.env.PUBLIC_URL + "/Assets/images/logo.jpg"}
+          />
           {/* <BrowserRouter> src=''
         public\Assets\images\logo.jpg
             <ul>
@@ -89,17 +92,18 @@ const Navbar = ({ scrollTocomponent }) => {
                 Contact-me
               </a>
             </li>
-            <button className="contact-btn">
-              {" "}
-              <a
-                // href="https://drive.google.com/file/d/1-Oot4sT9kk4wocw6yxXDRDVOVVoNP-aw/view?usp=sharing"
-                href="https://drive.google.com/file/d/1liKdgwDbb4n6qpg83eEu9qnZMBoAuRoA/view?usp=drive_link"
-                target="_blank"
-                rel="noreferrer"
-              >
-                {" "}
-                FindMyResume{" "}
-              </a>
+
+            <button
+              className="contact-btn"
+              onClick={() =>
+                window.open(
+                  "https://drive.google.com/file/d/18GenFT1Cvnco8UHzR5cxdePgLVqel4P3/view?usp=sharing",
+                  "_blank"
+                )
+              }
+              rel="noreferrer"
+            >
+              FindMyResume
             </button>
           </ul>
           <button className="menu-btn" onClick={toggleMenu}>

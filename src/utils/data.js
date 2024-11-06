@@ -63,33 +63,31 @@ export const projects=[
         title:"1. ForShopaholic",
         year:"2024 June",
         type:"Individual",
-        description:["Currently Developing  a full-stack e-commerce website","Key Features: Filtering, Authentication and authorization, Payment gateway integration, Admin Panel","Technologies will be included: "],
-        technologies:[ 'MongoDB','Express.js','React.js','Node.js'],
+        description:["Currently Developing a full-stack e-commerceapplication. An exclusive E-store for Cosmetics and Skincare.","Technologies used: "],
+        technologies:[ 'MongoDB','Express.js','React.js','Node.js','Bootstrap'],
         link:"https://github.com/Ragapiriya/ForShopaholic"
 
     },
     {
-        title:"2. BondBuzz",
-        year:"2024 June",
+        title:"2. FixItFast",
+        year:"2024 October",
         type:"Individual",
-        description:["Currently Developing  a full-stack e-commerce website ","Technologies will be included: "],
-        technologies:[ 'MongoDB','Express.js','React.js','Node.js','JWT','Multer'],
-        link:"https://github.com/Ragapiriya/mernApp"
-
-
+        description:["Developed a Vehicle Service Reservation Web Application.","Technologies & Security: Implemented role-based access control (RBAC) using Auth0, user authentication with OIDC/SAML protocols, and mitigated OWASP Top 10 vulnerabilities including injection attacks, outdated components, and data integrity failures."," Key Features: User & Admin Roles: Separate user and admin dashboards with access control managed via tokens. Reservation Management: Users can book, view, and manage past and upcoming service reservations and view user profile. Admin Controls: Admins can view all reservations, and track user details. Enhanced Security: Secure authentication and access control, aligning with best practices.","Technologies used: "],
+        technologies:['MongoDB','Express.js','React.js','Node.js','Auth0','JWT','OAuth2','SAML'],
+        link:"https://github.com/Ragapiriya/FixItFast"
 
     },
-    // {
-    //     title:"FF",
-    //     year:"2024 March",
-    //     type:"Group",
-    //     description:["Developed a full-stack e-commerce website for a perfume shop.","Contributions:Contributed to the Front-end development using React.js","Technologies used: "],
-    //     technologies:['React.js','JWT','MySql','Bootstrap'],
-    //     link:"https://github.com/Thenujan-V/Perfume_shop_web_app.git"
-
-    // },
     {
-        title:"3. ToDo app",
+        title:"3. Perfume shop",
+        year:"2024 March",
+        type:"Group",
+        description:["Developed an online platform for purchasing a range of perfumes.","Contributions: Contributed to the Front-end development using React.js"," Features: User Authentication: Sign-up and sign-in functionality to secure user access. Product Browsing & Checkout: Smooth navigation for browsing perfumes, adding items to the cart, and checking out. Order Management: Users can view order history and track purchases.","Technologies used: "],
+        technologies:['React.js','Springboot','MySql','Bootstrap'],
+        link:"https://github.com/Thenujan-V/Perfume_shop_web_app.git"
+
+    },
+    {
+        title:"4. ToDo app",
         year:"2024 May",
         type:"Individual",
         description:["Technologies used:",],
@@ -99,7 +97,7 @@ export const projects=[
 
     },
     {
-        title:"4. Weather App.",
+        title:"5. Weather App.",
         year:"2024 May",
         type:"Individual",
         description:["Technologies used: "],
@@ -109,7 +107,7 @@ export const projects=[
 
     },
     {
-        title:"5. Stop Watch",
+        title:"6. Stop Watch",
         year:"2024 May",
         type:"Individual",
         description:["Technologies used: "],
