@@ -9,7 +9,11 @@ const ProjectsCard = ({ details }) => {
           <h6>{details.title}</h6>
           <div className="repo">
             <a href={details.link} rel="noreferrer" target="_blank">
-              <img src={process.env.PUBLIC_URL + "/Assets/images/github2.png"} alt="github" />
+              <img
+                src={process.env.PUBLIC_URL + "/Assets/images/github2.png"}
+                alt="github"
+                title="Click to visit the repository"
+              />
             </a>
           </div>
         </div>
@@ -34,6 +38,26 @@ const ProjectsCard = ({ details }) => {
             ))}
           </div>
         </ul>
+        {/* {details.screenshot ? 
+        <div className="screenshot">
+          <img src={details.screenshot} alt="hh" />
+        </div>
+        
+        : <></>} */}
+        {details.screenshot ? (
+          <div className="screenshots">
+            {details.screenshot.map((screenshot, index) => (
+              <div className="screenshot" key={index}>
+                <img
+                  src={screenshot}
+                  alt={`${details.title} screenshot ${index + 1}`}
+                />
+              </div>
+            ))}
+          </div>
+        ) : (
+          <></>
+        )}
       </div>
     </>
   );

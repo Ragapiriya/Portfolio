@@ -1,123 +1,154 @@
 import React from "react";
 import "./Blogs.css";
+import { certificates } from "../../../utils/data";
+
 const Blogs = () => {
   return (
     <>
-      <div className="blogs-info">
-        <h6>Medium Blogs</h6>
-        <div className="blogs-info-content">
-          <div className="header">
-            <h7>Software Licenses</h7>
-            <div className="medium">
-              <a
-                href="https://medium.com/@r2001piriya/software-licenses-688eab7ab1e5"
-                rel="nonreferrer"
-                target="_blank"
-              >
-                <img
-                  src={process.env.PUBLIC_URL + "/Assets/images/medium.png"}
-                  alt="medium"
-                />
-              </a>
+      <section className="certificates-container">
+        <div className="blogs-info">
+          <h6>Certificates</h6>
+          <div className="blogs-info-content">
+            <div className="headerr">
+              <h7 style={{ marginLeft: "20px" }}>HackerRank</h7>
+              <div className="repo">
+                <a
+                  href="https://www.hackerrank.com/profile/r2001piriya"
+                  rel="noreferrer"
+                  target="_blank"
+                  style={{ textDecoration: "none", color: "inherit" }}
+                >
+                  <img
+                    src={
+                      process.env.PUBLIC_URL + "/Assets/images/hackerrank.png"
+                    }
+                    alt="hackerrank"
+                    title="Click to visit my HackerRank profile"
+                    style={{ cursor: "pointer", marginLeft: "10px" }}
+                  />
+                </a>
+              </div>
             </div>
-            <br></br>
-            <h9>
-              It is a document or an agreement that legally permits the users to
-              use and distribute the software. It is given by the company or
-              organization who is the owner or developer of the software
-              product.
-            </h9>
-          </div>
-          <div className="header">
-            <h7>Encapsulation</h7>
-            <div className="medium">
-              <a
-                href="https://medium.com/@r2001piriya/encapsulation-1409451b6821"
-                rel="nonreferrer"
-                target="_blank"
-              >
-                <img
-                  src={process.env.PUBLIC_URL + "/Assets/images/medium.png"}
-                  alt="medium"
-                />
-              </a>
-            </div>
-            <br></br>
-            <h9>
-              Encapsulation is a core concept in object-oriented programming
-              (OOP) that plays a critical role in protecting data integrity
-              within an application. By wrapping variables and methods inside a
-              class, encapsulation restricts direct access from outside code,
-              ensuring that data can be only accessed and modified in controlled
-              ways.
-            </h9>
-          </div>
 
-          <div className="header">
-            <h7>Access Modifiers</h7>
-            <div className="medium">
-              <a
-                href="https://medium.com/@r2001piriya/access-modifiers-8b3463e37e97"
-                rel="nonreferrer"
-                target="_blank"
-              >
-                <img
-                  src={process.env.PUBLIC_URL + "/Assets/images/medium.png"}
-                  alt="medium"
-                />
-              </a>
+            <ul>
+              {certificates
+                .filter((certificate) => certificate.category === "HackerRank")
+                .map((certificate) => (
+                  <li key={certificate.name}>
+                    <a href={certificate.link} target="_blank" rel="noreferrer">
+                      {certificate.name}
+                    </a>
+                  </li>
+                ))}
+            </ul>
+            <div className="headerr">
+              <h7 style={{ marginLeft: "20px" }}>Coursera</h7>
+              <div className="repo">
+                <a
+                  href="https://www.coursera.org/user/46bc8fc67ee2a0df3ac50aacdb035dc9"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  <div>
+                    <img
+                      src={
+                        process.env.PUBLIC_URL + "/Assets/images/cousera1.png"
+                      }
+                      title="Click to visit my Coursera profile"
+                      alt="hackerrank"
+                    />
+                  </div>
+                </a>
+              </div>
             </div>
-            <br></br>
-            <h9>
-              As the prefix “Access” says, access modifiers limit the
-              accessibility or the scope of the code. It adds extra layers of
-              security to the program and restricts unauthorized access.
-            </h9>
-          </div>
-          <div className="header">
-            <h7>Method Overloading</h7>
-            <div className="medium">
-              <a
-                href="https://medium.com/@r2001piriya/method-overloading-a718f71aadf2"
-                rel="nonreferrer"
-                target="_blank"
-              >
-                <img
-                  src={process.env.PUBLIC_URL + "/Assets/images/medium.png"}
-                  alt="medium"
-                />
-              </a>
+
+            <ul>
+              {certificates
+                .filter((certificate) => certificate.category === "Coursera")
+                .map((certificate) => (
+                  <li key={certificate.name}>
+                    <a href={certificate.link} target="_blank" rel="noreferrer">
+                      {certificate.name}
+                    </a>
+                  </li>
+                ))}
+            </ul>
+            <div className="headerr">
+              <h7 style={{ marginLeft: "20px" }}>SoloLearn</h7>
+              <div className="repo">
+                <a
+                  href="https://www.sololearn.com/en/profile/26436535"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  <img
+                    src={
+                      process.env.PUBLIC_URL + "/Assets/images/sololearn.png"
+                    }
+                    title="Click to visit my SoloLearn profile"
+                    alt="hackerrank"
+                  />
+                </a>
+              </div>
             </div>
-            <br></br>
-            <h9>
-              It allows us to have more than one method within the same class
-              with the same name if the parameters of methods are different in
-              count or data types.
-            </h9>
-          </div>
-          <div className="header">
-            <h7>Understanding Inheritance in Java</h7>
-            <div className="medium">
-              <a
-                href="https://medium.com/@r2001piriya/understanding-inheritance-in-java-9c1df555117a"
-                rel="nonreferrer"
-                target="_blank"
-              >
+
+            <ul>
+              {certificates
+                .filter((certificate) => certificate.category === "SoloLearn")
+                .map((certificate) => (
+                  <li key={certificate.name}>
+                    <a href={certificate.link} target="_blank" rel="noreferrer">
+                      {certificate.name}
+                    </a>
+                  </li>
+                ))}
+            </ul>
+            <div className="headerr">
+              <h7 style={{ marginLeft: "20px" }}>Alison</h7>
+              <div className="repo">
                 <img
-                  src={process.env.PUBLIC_URL + "/Assets/images/medium.png"}
-                  alt="medium"
+                  src={process.env.PUBLIC_URL + "/Assets/images/alison.png"}
+                  alt="hackerrank"
                 />
-              </a>
+              </div>
             </div>
-            <br></br>
-            <h9>
-              Inheritance is a fundamental object-oriented programming concept
-              that allows a class to inherit the properties and behaviors of
-              another class.
-            </h9>
+
+            <ul>
+              {certificates
+                .filter((certificate) => certificate.category === "Alison")
+                .map((certificate) => (
+                  <li key={certificate.name}>
+                    <a href={certificate.link} target="_blank" rel="noreferrer">
+                      {certificate.name}
+                    </a>
+                  </li>
+                ))}
+            </ul>
+
+            <div className="headerr">
+              <h7 style={{ marginLeft: "20px" }}>CODL UOM</h7>
+              <div className="repo">
+                <img
+                  src={process.env.PUBLIC_URL + "/Assets/images/uom.png"}
+                  alt="hackerrank"
+                />
+              </div>
+            </div>
+
+            <ul>
+              {certificates
+                .filter((certificate) => certificate.category === "CODL UOM")
+                .map((certificate) => (
+                  <li key={certificate.name}>
+                    <a href={certificate.link} target="_blank" rel="noreferrer">
+                      {certificate.name}
+                    </a>
+                  </li>
+                ))}
+            </ul>
           </div>
         </div>
-      </div>
+      </section>
     </>
   );
 };

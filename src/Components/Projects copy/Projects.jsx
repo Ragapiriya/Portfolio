@@ -2,6 +2,7 @@ import React, { useRef } from 'react'
 import './Projects.css'
 import ProjectsCard from './ProjectsCard/ProjectsCard'
 import { blogs } from '../../utils/data';
+
 import Slider from 'react-slick';
 const Projectscopy = () => {
   const sliderRef=useRef();
@@ -29,12 +30,12 @@ const Projectscopy = () => {
   const slideLeft = () =>{
     sliderRef.current.slickPrev(); // control the slide navigation.
   }
-  return (
+  return ( 
     <>
     <div>
      <section className='projects-container'>
         <h5>My Blogs</h5>
-        <div className="projects-content">
+        <div className="projects-content"> 
 
             <div className="arrow-right" onClick={slideRight}>
               <span class="material-symbols-outlined">🡺</span>

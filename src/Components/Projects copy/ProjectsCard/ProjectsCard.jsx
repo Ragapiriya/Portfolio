@@ -9,7 +9,12 @@ const ProjectsCard = ({ details }) => {
           <h6>{details.title}</h6>
           <div className="repo">
             <a href={details.link} rel="noreferrer" target="_blank">
-              <img src={process.env.PUBLIC_URL + "/Assets/images/github2.png"} alt="github" />
+              <img
+                src={process.env.PUBLIC_URL + "/Assets/images/medium.png"}
+                alt="github"
+                title="Click to visit the blog"
+
+              />
             </a>
           </div>
         </div>
@@ -24,10 +29,10 @@ const ProjectsCard = ({ details }) => {
             <div className="techno"></div>
           </ul>
         </div>
-
+        
         <ul>
           <div>
-            {details.technologies.map((item) => (
+            {details.keywords.map((item) => (
               <li className="tech" key={item}>
                 {item}
               </li>

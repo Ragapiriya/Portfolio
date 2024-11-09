@@ -6,8 +6,9 @@ import Projects from "./Components/Projects/Projects";
 import ContactMe from "./Components/ContactMe/ContactMe";
 import Footer from "./Components/Footer/Footer";
 import { useRef } from "react";
-import EdBlogs from "./Components/EdBlogs/EdBlogs";
 import Projectscopy from "./Components/Projects copy/Projects";
+import Education from "./Components/EdBlogs/Education/Education";
+import Blogs from "./Components/EdBlogs/Blogs/Blogs";
 
 const App = () => {
   const heroRef = useRef(null);
@@ -15,34 +16,35 @@ const App = () => {
   const projectscopyRef = useRef(null);
   const projectsRef = useRef(null);
   const contactmeRef = useRef(null);
-  const edblogsRef = useRef(null);
+  const educationRef = useRef(null);
+  const certificatesRef = useRef(null);
+
   const scrollTocomponent = (componentName) => {
     let offset = 0;
     switch (componentName) {
       case "hero":
         offset = heroRef.current.offsetTop - 0;
-        // heroRef.current.scrollIntoView({behavior:'smooth'});
         break;
       case "skills":
         offset = skillsRef.current.offsetTop - 60;
-        // skillsRef.current.scrollIntoView({behavior:'smooth'});
+        break;
+      case "education":
+        offset = educationRef.current.offsetTop - 0;
+        break;
+      case "certificates":
+        offset = certificatesRef.current.offsetTop - 0;
         break;
       case "projectscopy":
         offset = projectscopyRef.current.offsetTop - 60;
-        // projectscopyRef.current.scrollIntoView({behavior:'smooth'});
         break;
       case "projects":
         offset = projectsRef.current.offsetTop - 60;
-        // projectsRef.current.scrollIntoView({behavior:'smooth'});
+        break;
+      case "blogs":
+        offset = projectscopyRef.current.offsetTop - 60;
         break;
       case "contact-me":
-        // contactmeRef.current.scrollIntoView({behavior:'smooth'});
         offset = contactmeRef.current.offsetTop - 60;
-        break;
-      case "edblogs":
-        offset = edblogsRef.current.offsetTop - 60;
-        break;
-      default:
         break;
     }
     window.scrollTo({
@@ -58,41 +60,28 @@ const App = () => {
           <div ref={heroRef}>
             <Hero />
           </div>
-          <div ref={edblogsRef}>
-            <EdBlogs />
+
+          <div ref={educationRef}>
+            <Education />
+          </div>
+          <div ref={certificatesRef}>
+            <Blogs />
           </div>
           <div ref={skillsRef}>
             <Skills />
           </div>
-          {/* <div ref={projectscopyRef}>
-          <Projectscopy/>
-        </div> */}
           <div ref={projectsRef}>
             <Projects />
+          </div>
+          <div ref={projectscopyRef}>
+            <Projectscopy />
           </div>
           <div ref={contactmeRef}>
             <ContactMe />
           </div>
         </div>
         <Footer />
-        {/* <BrowserRouter>
-        <Routes>
-          <Route path='/' element={<Hero/>}/>
-          <Route path='/skills' element={<Skills/>}/>
-          <Route path='/projects' element={<Projects/>}/>
-          <Route path='/contact-me' element={<ContactMe/>}/>
-        </Routes>
-       
-      </BrowserRouter> */}
-
-        {/* // <Navbar/>
-        //     <div className='container'>
-        //       <Hero/>
-        //       <Skills/>
-        //       <Projects/>
-        //       <ContactMe/>
-        //     </div>
-        // <Footer/> */}
+     
       </div>
     </>
   );

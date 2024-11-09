@@ -1,3 +1,8 @@
+.certificates-container{
+    margin: 4rem 0;
+    position:relative;
+}
+
 .blogs-info{
     min-height: 23rem;
     border-radius: 0.65rem;
@@ -6,8 +11,8 @@
     backdrop-filter: blur(1rem);
 }
 .blogs-info h6{
-    font-size: 1.2rem;
-    font-weight: 500;
+    font-size: 1.5rem;
+    font-weight: 600;
     padding: 0.8rem 2rem;
     background: linear-gradient(180deg, #ac96ff 0%, #7c5fe6);
     background-clip: text;
@@ -57,3 +62,20 @@
 
 
 }
+@media (max-width: 768px)
+{
+.blogs-info h6{
+    font-size: 1rem;
+
+}
+.blogs-info-content h7{
+    font-size: 0.9rem;
+
+}
+.blogs-info-content h9{
+  font-size: 0.8rem;
+
+}
+
+}
+

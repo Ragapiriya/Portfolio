@@ -29,7 +29,7 @@ const Projects = () => {
   const slideLeft = () =>{
     sliderRef.current.slickPrev(); // control the slide navigation.
   }
-  return (
+  return ( 
     <>
     <div>
      <section className='projects-container'>
@@ -43,6 +43,7 @@ const Projects = () => {
               <span class="material-symbols-outlined">🡸</span>
             </div>
           <Slider ref={sliderRef} {...settings}>
+            
             {projects.map((item)=>
                 <ProjectsCard key={item.title} details={item}/>
             )} 
