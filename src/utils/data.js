@@ -128,6 +128,8 @@ export const projects = [
     type: "Individual",
     description: ["Technologies used: "],
     technologies: ["JavaScript", "CSS", "APIs"],
+    screenshot:[process.env.PUBLIC_URL+"/Assets/images/weather1.png",process.env.PUBLIC_URL+"/Assets/images/weather.png"],
+
     link: "https://github.com/Ragapiriya/WeatherApplication.git",
   },
   {
@@ -136,6 +138,8 @@ export const projects = [
     type: "Individual",
     description: ["Technologies used: "],
     technologies: ["JavaScript", "CSS", "APIs"],
+    screenshot:[process.env.PUBLIC_URL+"/Assets/images/stopwatch.png"],
+
     link: "https://github.com/Ragapiriya/StopWatch.git",
   },
 ];

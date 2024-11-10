@@ -87,7 +87,7 @@ const Navbar = ({ scrollTocomponent }) => {
                 className="contact-btn"
                 onClick={() =>
                   window.open(
-                    "https://drive.google.com/file/d/18GenFT1Cvnco8UHzR5cxdePgLVqel4P3/view?usp=sharing",
+                    "https://drive.google.com/file/d/1orJ26CnKSbmRP3TCfET-nW_-o6OyRd6k/view?usp=sharing",
                     "_blank"
                   )
                 }
