@@ -7,7 +7,7 @@ const Blogs = () => {
     <>
       <section className="certificates-container">
         <div className="blogs-info">
-          <h6>Certificates</h6>
+          <h6>Certificates📑</h6>
           <div className="blogs-info-content">
             <div className="headerr">
               <h7 style={{ marginLeft: "20px" }}>HackerRank</h7>

@@ -12,11 +12,11 @@ const Navbar = ({ scrollTocomponent }) => {
   const toggleMenu = () => {
     setOpenMenu(!openMenu);
   };
-  console.log("Environment:", process.env.NODE_ENV);
-  console.log("Image Source:", logoSrc);
+  // console.log("Environment:", process.env.NODE_ENV);
+  // console.log("Image Source:", logoSrc);
   return (
     <>
-      <MobileNav isOpen={openMenu} toggleMenu={toggleMenu} />
+      <MobileNav isOpen={openMenu} toggleMenu={toggleMenu} scrollTocomponent={scrollTocomponent}/>
       <nav className="nav-wrapper">
         <div className="nav-content">
           <img
@@ -63,7 +63,7 @@ const Navbar = ({ scrollTocomponent }) => {
                 className="menu-item"
                 onClick={() => scrollTocomponent("projects")}
               >
-                Projects
+                Projects 
               </a>
             </li>
             <li>

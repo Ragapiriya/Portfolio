@@ -15,13 +15,12 @@ const Hero = () => {
       <section className="hero-container">
         <div className="hero-content">
           <h1>Ragapiriya Rameshkumar</h1>
-          <h3>Software Engineering Undergraduate</h3>
+          <h3>Software Engineering Undergraduate 🎓</h3>
           <p>
             I am an aspiring software engineer third-year undergraduate studying
             at the University of Kelaniya. I am passionate about developing
             full-stack websites and have a strong foundation in Data Structures
-            and Algorithms (DSA) as well as Object-Oriented Programming (OOP)
-            concepts in Python. I am flexible and thrive in teamwork and
+            and Algorithms (DSA) as well as Object-Oriented Programming (OOP). I am flexible and thrive in teamwork and
             collaboration environments. I look forward to opportunities that
             allow me to showcase and further develop both my technical and soft
             skills.

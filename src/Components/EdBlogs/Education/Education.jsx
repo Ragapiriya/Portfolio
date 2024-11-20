@@ -6,7 +6,7 @@ const Education = () => {
       <section className="education-container">
  
         <div className="education-info">
-          <h6>Education</h6>
+          <h6>Education🎓</h6>
           <div className="education-info-content">
             <div className="uni-content">
               <div className="details">

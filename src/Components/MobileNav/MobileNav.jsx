@@ -1,6 +1,6 @@
 import React from "react";
 import "./MobileNav.css";
-const MobileNav = ({ isOpen, toggleMenu }) => {
+const MobileNav = ({ isOpen, toggleMenu, scrollTocomponent }) => {
   return (
     <>
       <div
@@ -8,27 +8,69 @@ const MobileNav = ({ isOpen, toggleMenu }) => {
         onClick={toggleMenu}
       >
         <div className="mobile-menu-container">
-          <img alt="logo" className="logo" src={`${process.env.PUBLIC_URL}/Assets/images/logo.jpg`} />
+          <img
+            alt="logo"
+            className="logo"
+            src={`${process.env.PUBLIC_URL}/Assets/images/logo.jpg`}
+          />
 
           <ul>
             <li>
-              <a className="menu-item">Home</a>
+              <a
+                className="menu-item"
+                onClick={() => scrollTocomponent("hero")}
+              >
+                Home
+              </a>
             </li>
 
             <li>
-              <a className="menu-item">Education & Certifications</a>
+              <a
+                className="menu-item"
+                onClick={() => scrollTocomponent("education")}
+              >
+                Education
+              </a>
             </li>
             <li>
-              <a className="menu-item">Technical Proficiency</a>
+              <a
+                className="menu-item"
+                onClick={() => scrollTocomponent("certificates")}
+              >
+                Certificates
+              </a>
             </li>
             <li>
-              <a className="menu-item">Projects</a>
+              <a
+                className="menu-item"
+                onClick={() => scrollTocomponent("skills")}
+              >
+                Technical Proficiency
+              </a>
             </li>
             <li>
-              <a className="menu-item">Blogs</a>
+              <a
+                className="menu-item"
+                onClick={() => scrollTocomponent("projects")}
+              >
+                Projects
+              </a>
             </li>
             <li>
-              <a className="menu-item">Contact-Me</a>
+              <a
+                className="menu-item"
+                onClick={() => scrollTocomponent("blogs")}
+              >
+                Blogs
+              </a>
+            </li>
+            <li>
+              <a
+                className="menu-item"
+                onClick={() => scrollTocomponent("contact-me")}
+              >
+                Contact-me
+              </a>
             </li>
 
             <button

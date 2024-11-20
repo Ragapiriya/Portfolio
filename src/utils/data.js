@@ -15,8 +15,8 @@ export const dataOfSkills = [
     icon: "./Assets/images/backend2.png",
     skills: [
       { skill: "Node.js", percentage: "85%" },
-      { skill: "Express.js", percentage: "85%" },
-      { skill: "PHP", percentage: "75%" },
+      { skill: "Express.js", percentage: "85%" }
+    
     ],
   },
 
@@ -24,9 +24,9 @@ export const dataOfSkills = [
     title: "Programming Languages",
     icon: "./Assets/images/prog2.png",
     skills: [
-      { skill: "Python", percentage: "75%" },
-      { skill: "C", percentage: "90%" },
       { skill: "JAVA", percentage: "90%" },
+      { skill: "C", percentage: "90%" },
+      { skill: "Python", percentage: "75%" },
       { skill: "JavaScript", percentage: "80%" },
       { skill: "R", percentage: "75%" },
     ],
@@ -52,8 +52,8 @@ export const dataOfSkills = [
     title: "DataBase",
     icon: "./Assets/images/db.png",
     skills: [
-      { skill: "MongoDB", percentage: "75%" },
-      { skill: "MySQL", percentage: "80%" },
+      { skill: "MongoDB", percentage: "80%" },
+      { skill: "MySQL", percentage: "60%" },
     ],
   },
 ];
@@ -63,7 +63,7 @@ export const projects = [
     year: "2024 June",
     type: "Individual",
     description: [
-      "Currently Developing a full-stack e-commerceapplication. An exclusive E-store for Cosmetics and Skincare.",
+      "Currently Developing a full-stack e-commerce application. An exclusive E-store for Cosmetics and Skincare.",
       "Technologies used: ",
     ],
     technologies: ["MongoDB", "Express.js", "React.js", "Node.js", "Bootstrap"],
