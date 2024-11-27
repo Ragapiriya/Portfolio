@@ -77,7 +77,7 @@ const MobileNav = ({ isOpen, toggleMenu, scrollTocomponent }) => {
               className="contact-btn"
               onClick={() =>
                 window.open(
-                  "https://drive.google.com/file/d/1orJ26CnKSbmRP3TCfET-nW_-o6OyRd6k/view?usp=sharing",
+                  "https://drive.google.com/file/d/1E39Pv-AxD-LxAwcYZbxnPpUC8NXMqA7p/view?usp=sharing",
                   "_blank"
                 )
               }

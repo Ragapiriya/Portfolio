@@ -56,6 +56,9 @@ const Hero = () => {
             <div className="tech-icon">
               <img alt="" src={process.env.PUBLIC_URL+"/Assets/images/mongodbNew.png"} />
             </div>
+            <div className="tech-icon">
+              <img alt="" src={process.env.PUBLIC_URL+"/Assets/images/mysql1.png"} />
+            </div>
           </div>
         </div>
       </section>

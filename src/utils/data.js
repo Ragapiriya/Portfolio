@@ -15,8 +15,7 @@ export const dataOfSkills = [
     icon: "./Assets/images/backend2.png",
     skills: [
       { skill: "Node.js", percentage: "85%" },
-      { skill: "Express.js", percentage: "85%" }
-    
+      { skill: "Express.js", percentage: "85%" },
     ],
   },
 
@@ -35,17 +34,18 @@ export const dataOfSkills = [
     title: "Software Tools",
     icon: "./Assets/images/tools4.png",
     skills: [
-      { skill: "Git & GitHub", percentage: "80%" },
-      { skill: "Visual Studio Code", percentage: "90%" },
-      { skill: "Eclipse", percentage: "70%" },
-      { skill: "Figma", percentage: "70%" },
-      { skill: "Postman", percentage: "85%" },
-      { skill: "Jira", percentage: "70%" },
       { skill: "Adobe Illustrator", percentage: "65%" },
       { skill: "Adobe Photoshop", percentage: "70%" },
       { skill: "Adobe Lightroom", percentage: "85%" },
+      { skill: "AWS", percentage: "15%" },
       { skill: "Canva", percentage: "80%" },
+      { skill: "Eclipse", percentage: "70%" },
+      { skill: "Figma", percentage: "70%" },
+      { skill: "Jira", percentage: "70%" },
+      { skill: "Git & GitHub", percentage: "80%" },
+      { skill: "Postman", percentage: "85%" },
       { skill: "PowerBI", percentage: "70%" },
+      { skill: "Visual Studio Code", percentage: "90%" },
     ],
   },
   {
@@ -59,19 +59,7 @@ export const dataOfSkills = [
 ];
 export const projects = [
   {
-    title: "1. ForShopaholic ➺",
-    year: "2024 June",
-    type: "Individual",
-    description: [
-      "Currently Developing a full-stack e-commerce application. An exclusive E-store for Cosmetics and Skincare.",
-      "Technologies used: ",
-    ],
-    technologies: ["MongoDB", "Express.js", "React.js", "Node.js", "Bootstrap"],
-    
-    link: "https://github.com/Ragapiriya/ForShopaholic",
-  },
-  {
-    title: "2. FixItFast ➺",
+    title: "1. FixItFast ➺",
     year: "2024 October",
     type: "Individual",
     description: [
@@ -90,16 +78,29 @@ export const projects = [
       "OAuth2",
       "SAML",
     ],
-    screenshot:[process.env.PUBLIC_URL + "/Assets/images/fixitfast1.png",
+    screenshot: [
+      process.env.PUBLIC_URL + "/Assets/images/fixitfast1.png",
       process.env.PUBLIC_URL + "/Assets/images/fixitfast2.png",
-    process.env.PUBLIC_URL + "/Assets/images/fixitfast3.png",
-    process.env.PUBLIC_URL + "/Assets/images/fixitfast4.png",
-    process.env.PUBLIC_URL + "/Assets/images/fixitfast5.png",
-    process.env.PUBLIC_URL + "/Assets/images/fixitfast6.png"
+      process.env.PUBLIC_URL + "/Assets/images/fixitfast3.png",
+      process.env.PUBLIC_URL + "/Assets/images/fixitfast4.png",
+      process.env.PUBLIC_URL + "/Assets/images/fixitfast5.png",
+      process.env.PUBLIC_URL + "/Assets/images/fixitfast6.png",
     ],
     link: "https://github.com/Ragapiriya/FixItFast",
   },
-  
+  {
+    title: "2. ForShopaholic ➺",
+    year: "2024 June",
+    type: "Individual",
+    description: [
+      "Currently Developing a full-stack e-commerce application. An exclusive E-store for Cosmetics and Skincare.",
+      "Technologies used: ",
+    ],
+    technologies: ["MongoDB", "Express.js", "React.js", "Node.js", "Bootstrap"],
+
+    link: "https://github.com/Ragapiriya/ForShopaholic",
+  },
+
   {
     title: "3. Perfume shop ➺",
     year: "2024 March",
@@ -113,32 +114,81 @@ export const projects = [
     technologies: ["React.js", "Springboot", "MySql", "Bootstrap"],
     link: "https://github.com/Thenujan-V/Perfume_shop_web_app.git",
   },
+
   {
-    title: "4. ToDo app ➺",
+    title: "4. School Management  ➺",
+    year: "2024 August",
+    type: "Group",
+    description: [
+      "Developed a school student management system to manage personal student data, timetables, and upcoming events.",
+      "Contributions: Contributed to both Front-end & back-end development",
+      " Features: Store and update student information, view profiles, timetable display, manage school events. ",
+
+      "Technologies used: ",
+    ],
+    technologies: [
+      "MongoDB",
+      "Express.js",
+      "React.js",
+      "Node.js",
+      "Tailwind CSS",
+    ],
+    screenshot: [
+      process.env.PUBLIC_URL + "/Assets/images/schl1.png",
+      process.env.PUBLIC_URL + "/Assets/images/scl2.png",
+      process.env.PUBLIC_URL + "/Assets/images/scl3.png",
+      process.env.PUBLIC_URL + "/Assets/images/scl4.png",
+      process.env.PUBLIC_URL + "/Assets/images/scl5.png",
+      process.env.PUBLIC_URL + "/Assets/images/scl6.png",
+    ],
+    link: "https://github.com/Sathiskumarssf/School-management",
+  },
+  {
+    title: "5. School Management simple ➺",
+    year: "2024 November",
+    type: "Individual",
+    description: [
+      "Developing a school student management system.",
+      " Features: Managing Student informations",
+
+      "Technologies used: ",
+    ],
+    technologies: ["HTML", "CSS", "Node.js", "Express.js", "MySQL"],
+
+    link: "https://github.com/Ragapiriya/Student-Management-simple",
+  },
+  {
+    title: "6. ToDo app ➺",
     year: "2024 May",
     type: "Individual",
-    description: ["This application offers full task management functionality, allowing users to create new tasks, edit existing ones, and delete tasks they no longer need. Users can easily add tasks to keep track of their to-do items or project milestones, modify task details as requirements change, and remove tasks to maintain an organized task list. The streamlined design ensures that task creation, updating, and deletion are intuitive, making it easy to stay on top of personal or collaborative tasks efficiently.","Technologies used:"],
+    description: [
+      "This application offers full task management functionality, allowing users to create new tasks, edit existing ones, and delete tasks they no longer need. Users can easily add tasks to keep track of their to-do items or project milestones, modify task details as requirements change, and remove tasks to maintain an organized task list. The streamlined design ensures that task creation, updating, and deletion are intuitive, making it easy to stay on top of personal or collaborative tasks efficiently.",
+      "Technologies used:",
+    ],
     technologies: ["MongoDB", "Express.js", "React.js", "Node.js"],
-    screenshot:[process.env.PUBLIC_URL+"/Assets/images/todo.png"],
+    screenshot: [process.env.PUBLIC_URL + "/Assets/images/todo.png"],
     link: "https://github.com/Ragapiriya/ToDoList.git",
   },
   {
-    title: "5. Weather App ➺",
+    title: "7. Weather App ➺",
     year: "2024 May",
     type: "Individual",
     description: ["Technologies used: "],
     technologies: ["JavaScript", "CSS", "APIs"],
-    screenshot:[process.env.PUBLIC_URL+"/Assets/images/weather1.png",process.env.PUBLIC_URL+"/Assets/images/weather.png"],
+    screenshot: [
+      process.env.PUBLIC_URL + "/Assets/images/weather1.png",
+      process.env.PUBLIC_URL + "/Assets/images/weather.png",
+    ],
 
     link: "https://github.com/Ragapiriya/WeatherApplication.git",
   },
   {
-    title: "6. Stop Watch ➺",
+    title: "8. Stop Watch ➺",
     year: "2024 May",
     type: "Individual",
     description: ["Technologies used: "],
     technologies: ["JavaScript", "CSS", "APIs"],
-    screenshot:[process.env.PUBLIC_URL+"/Assets/images/stopwatch.png"],
+    screenshot: [process.env.PUBLIC_URL + "/Assets/images/stopwatch.png"],
 
     link: "https://github.com/Ragapiriya/StopWatch.git",
   },
@@ -214,49 +264,56 @@ export const certificates = [
   {
     category: "HackerRank",
     name: "Python(Basic)",
-    link: "https://www.hackerrank.com/certificates/1bda07fa1975"
+    link: "https://www.hackerrank.com/certificates/1bda07fa1975",
   },
   {
     category: "HackerRank",
     name: "React(Basic)",
-    link: "https://www.hackerrank.com/certificates/f458accf2d1b"
+    link: "https://www.hackerrank.com/certificates/f458accf2d1b",
   },
   {
     category: "Coursera",
     name: "Foundations of User Experience (UX) Design",
-    link: "https://www.coursera.org/account/accomplishments/verify/3LNGC3E5YXP6?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course"
+    link: "https://www.coursera.org/account/accomplishments/verify/3LNGC3E5YXP6?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course",
   },
   {
     category: "SoloLearn",
     name: "Python Developer",
-    link: "https://www.sololearn.com/en/certificates/CC-HCSPSAWM"
-  },  {
+    link: "https://www.sololearn.com/en/certificates/CC-HCSPSAWM",
+  },
+  {
     category: "SoloLearn",
     name: "C",
-    link: "https://www.sololearn.com/en/certificates/CT-RSUCO795"
-  },{
+    link: "https://www.sololearn.com/en/certificates/CT-RSUCO795",
+  },
+  {
     category: "Alison",
     name: "Diploma in C Programming",
-    link: "https://drive.google.com/file/d/1xJSd4jG-dTZ3uf9mYsv7Aovh7iQNCbOm/view"
-  },{
+    link: "https://drive.google.com/file/d/1xJSd4jG-dTZ3uf9mYsv7Aovh7iQNCbOm/view",
+  },
+  {
     category: "Alison",
     name: "JavaScript Application Programming",
-    link: "https://drive.google.com/file/d/1gJp4X9KY0atnF1fSka9bFPzVlfAU-yqC/view"
-  },{
+    link: "https://drive.google.com/file/d/1gJp4X9KY0atnF1fSka9bFPzVlfAU-yqC/view",
+  },
+  {
     category: "Alison",
     name: "JavaScript for Dynamic and Interactive Web Pages",
-    link: "https://drive.google.com/file/d/1MQuM9P7oW1JJnbAolVEqnUws-p_xruSW/view"
-  },{
+    link: "https://drive.google.com/file/d/1MQuM9P7oW1JJnbAolVEqnUws-p_xruSW/view",
+  },
+  {
     category: "Alison",
     name: "Diploma in Website Development Using HTML and CSS",
-    link: "https://drive.google.com/file/d/13JEJw2EvBWOBfK-5hoS_z_HlgZWojSw5/view"
-  },{
+    link: "https://drive.google.com/file/d/13JEJw2EvBWOBfK-5hoS_z_HlgZWojSw5/view",
+  },
+  {
     category: "Alison",
     name: "Linux for Absolute Beginners",
-    link: "https://drive.google.com/file/d/11BPT_zsaSJuDma9hB9KCDKeawdVOpuX8/view"
-  },{
+    link: "https://drive.google.com/file/d/11BPT_zsaSJuDma9hB9KCDKeawdVOpuX8/view",
+  },
+  {
     category: "CODL UOM",
     name: "Python for beginners",
-    link: "https://drive.google.com/file/d/1M9X2vESLKgksh2gvvkm0VVwNEXPhOl-n/view?usp=sharing"
+    link: "https://drive.google.com/file/d/1M9X2vESLKgksh2gvvkm0VVwNEXPhOl-n/view?usp=sharing",
   },
-]
+];
