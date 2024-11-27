@@ -97,7 +97,18 @@ export const projects = [
       "Technologies used: ",
     ],
     technologies: ["MongoDB", "Express.js", "React.js", "Node.js", "Bootstrap"],
+    screenshot: [
+      process.env.PUBLIC_URL + "/Assets/images/forshopaholic1.png",
+      process.env.PUBLIC_URL + "/Assets/images/forshopaholic2.png",
+      process.env.PUBLIC_URL + "/Assets/images/forshopaholic3.png",
+      process.env.PUBLIC_URL + "/Assets/images/forshopaholic4.png",
+      process.env.PUBLIC_URL + "/Assets/images/forshopaholic5.png",
+      process.env.PUBLIC_URL + "/Assets/images/forshopaholic6.png",
+      process.env.PUBLIC_URL + "/Assets/images/forshopaholic8.png",
+      process.env.PUBLIC_URL + "/Assets/images/forshopaholic9.png",
 
+
+    ],
     link: "https://github.com/Ragapiriya/ForShopaholic",
   },
 
