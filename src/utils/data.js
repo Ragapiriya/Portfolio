@@ -155,17 +155,22 @@ export const projects = [
     link: "https://github.com/Sathiskumarssf/School-management",
   },
   {
-    title: "5. School Management simple ➺",
+    title: "5. Student Management - CRUD ➺",
     year: "2024 November",
     type: "Individual",
     description: [
-      "Developing a school student management system.",
+      "Developed a basic student management web application using CRUD operations.",
       " Features: Managing Student informations",
 
       "Technologies used: ",
     ],
     technologies: ["HTML", "CSS", "Node.js", "Express.js", "MySQL"],
+    screenshot: [
+      process.env.PUBLIC_URL + "/Assets/images/std1.png",
+      process.env.PUBLIC_URL + "/Assets/images/std2.png",
+      process.env.PUBLIC_URL + "/Assets/images/std3.png",
 
+    ],
     link: "https://github.com/Ragapiriya/Student-Management-simple",
   },
   {
@@ -202,6 +207,15 @@ export const projects = [
     screenshot: [process.env.PUBLIC_URL + "/Assets/images/stopwatch.png"],
 
     link: "https://github.com/Ragapiriya/StopWatch.git",
+  },
+  {
+    title: "9. Calculator ➺",
+    year: "2024 July",
+    type: "Individual",
+    description: ["Technology used: "],
+    technologies: ["Python"],
+
+    link: "https://github.com/Ragapiriya/Caculator.py",
   },
 ];
 
