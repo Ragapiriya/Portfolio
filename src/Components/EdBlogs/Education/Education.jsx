@@ -35,7 +35,7 @@ const Education = () => {
                 <h8 className="content">2022-Present</h8>
               </div>
 
-              <h9>CGPA: 2.65</h9>
+              <h9>CGPA: 3.16</h9>
               <br />
               <h9>Domains:</h9>
               <ul>
